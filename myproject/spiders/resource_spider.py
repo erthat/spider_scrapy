@@ -49,9 +49,9 @@ class ResourceSpider(CrawlSpider):
                 self.start_urls = [resource[2] for resource in self.resources]
                 self.allowed_domains = [urlparse(resource[2]).netloc for resource in self.resources]
                 top_tags = [resource[3] for resource in self.resources]
-                    # Создание правил для каждого ресурса
+                # Создание правил для каждого ресурса
                 self.rules = (
-                    Rule(LinkExtractor(restrict_xpaths=top_tags), callback='parse_links', follow=True),
+                    Rule(LinkExtractor(restrict_xpaths="//a"), callback='parse_links', follow=True),
                 )
 
                 super()._compile_rules()
@@ -69,7 +69,7 @@ class ResourceSpider(CrawlSpider):
         # Получаем текущий URL
         current_url = response.url
 
-        # Ищем RESOURCE_ID для текущего URL
+        #Ищем RESOURCE_ID для текущего URL
         resource_id = None
         resource_info = None
         for resource in self.resources:
@@ -108,12 +108,12 @@ class ResourceSpider(CrawlSpider):
 
 
             self.store_news(resource_id, title, current_url, nd_date, content, s_date, not_date)
-            self.store_link(resource_id, current_url)
+            self.store_link(current_url)
 
-    def store_link(self, resource_id, current_url):  # сохраняем ссылки в бд
+    def store_link(self, current_url):  # сохраняем ссылки в бд
         self.cursor.execute(
-            "INSERT INTO temp_items_link (RESOURCE_ID, link) VALUES (%s, %s)",
-            (resource_id, current_url,)
+            "INSERT INTO temp_items_link (link) VALUES (%s)",
+            (current_url,)
                             )
         self.conn.commit()
 
