@@ -1,3 +1,13 @@
+import sys
+import asyncio
+
+# Устанавливаем совместимый цикл событий для Windows
+if sys.platform == 'win32':
+    asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
+from twisted.internet import asyncioreactor
+asyncioreactor.install()
+
 from scrapy.crawler import CrawlerRunner
 from scrapy.utils.project import get_project_settings
 from myproject.spiders.resource_spider import ResourceSpider
@@ -6,9 +16,10 @@ from twisted.internet.defer import inlineCallbacks
 import logging
 
 logging.basicConfig(
-    level=logging.DEBUG,  # Устанавливаем уровень логирования
+    level=logging.DEBUG,
     format='%(levelname)s: %(message)s',
 )
+
 @inlineCallbacks
 def crawl():
     runner = CrawlerRunner(get_project_settings())
