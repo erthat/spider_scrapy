@@ -16,7 +16,7 @@ from twisted.internet.defer import inlineCallbacks
 import logging
 
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(levelname)s: %(message)s',
 )
 

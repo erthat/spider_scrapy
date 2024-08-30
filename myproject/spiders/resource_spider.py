@@ -2,6 +2,7 @@
 # asyncioreactor.install()
 
 import mysql.connector
+import pytz
 from mysql.connector import Error
 from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
@@ -47,7 +48,7 @@ class ResourceSpider(CrawlSpider):
 
                 # Загрузка ресурсов из базы данных
                 self.cursor_1.execute(
-                    "SELECT RESOURCE_ID, RESOURCE_NAME, RESOURCE_URL, top_tag, bottom_tag, title_cut, date_cut "
+                    "SELECT RESOURCE_ID, RESOURCE_NAME, RESOURCE_URL, top_tag, bottom_tag, title_cut, date_cut, convert_date "
                     "FROM resource "
                     "WHERE status = %s AND bottom_tag IS NOT NULL AND bottom_tag <> '' "
                     "AND title_cut IS NOT NULL AND title_cut <> '' "
@@ -116,9 +117,13 @@ class ResourceSpider(CrawlSpider):
                 return
             title = self.replace_unsupported_characters(title_t)
             date = response.xpath(resource_info[6]).get()
-            date = self.parse_date(date)
             if not date:
-                self.logger.warning(f"Дата отсутствует для {current_url}")
+                self.logger.info(f"Дата отсутствует для {current_url}")
+                return
+                # получение даты новостей
+            date = self.parse_date(date, resource_info[7])
+            if not date:
+                self.logger.info(f"Дата отсутствует для {current_url}")
                 return
             n_date = date
             nd_date = int(time.mktime(date.timetuple()))
@@ -138,6 +143,7 @@ class ResourceSpider(CrawlSpider):
 
     def store_news(self, resource_id, title, current_url, nd_date, content, n_date, s_date, not_date):
         status = 'NULL'
+        self.logger.info(f"ЕСТЬ НОВОСТИ {current_url}")
         self.cursor_1.execute(
             "INSERT INTO temp_items (res_id, title, link, nd_date, content, n_date, s_date, not_date, status) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
             (resource_id, title, current_url, nd_date, content, n_date, s_date, not_date, status)
@@ -190,28 +196,32 @@ class ResourceSpider(CrawlSpider):
         content = emoji.demojize(content)
         return content
 
-    def parse_date(self, date_str):
-        # Определите формат русской даты (дд.мм.гггг)
-        russian_date_pattern = r'\d{2}\.\d{2}\.\d{4}'
-
-        # Определите формат ISO даты (гггг-мм-ддThh:mm:ss+zz:zz)
-        iso_date_pattern = r'\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\+\d{2}:\d{2})?'
-
+    def parse_date(self, date_str, convert_date):
         date_str = str(date_str) if date_str else ''
-        if re.search(r'-го|г\.|жылдың|Published ', date_str):
-            date_str = re.sub(r'[-го|г\.|жылдың|Published|,]', '', date_str)
+        date_str = re.sub(r'-го|г\.|Published|\bжыл\w*|', '', date_str)
+        languages = ['ru', 'kk', 'en']
+        if not convert_date:
+            # Присваиваем список по умолчанию
+            DATE_ORDERS = ["YMD", "DMY", "MYD"]
         else:
-            date_str = date_str
-        # Проверка формата даты и парсинг
-        if re.fullmatch(russian_date_pattern, date_str):
-            # Преобразование русской даты в стандартный формат ISO для `dateparser`
-            clean_date_str = date_str + 'T00:00:00'  # Добавляем время для совместимости
-            return parse(clean_date_str, languages=['ru'])
-        elif re.fullmatch(iso_date_pattern, date_str):
-            # Прямой парсинг даты в формате ISO
-            return parse(date_str)
-        else:
-            return parse(date_str)
+            # Если переменная содержит строку (например, "YMD"), превращаем её в список
+            if isinstance(convert_date, str):
+                DATE_ORDERS = [convert_date]
+            else:
+                DATE_ORDERS = convert_date
+        date_formats = ['']
+        UTC = pytz.UTC
+        for date_order in DATE_ORDERS:
+            date = parse(date_str,
+                         languages=languages,
+                         date_formats=date_formats,
+                         settings={"DATE_ORDER": date_order},
+                         )
+            if date:
+                date_with_utc = date.replace(tzinfo=UTC)
+                if date_with_utc <= datetime.now().replace(tzinfo=UTC):
+                    return date_with_utc
+        return None
     def close(self, reason):
         if self.cursor_1:
             self.cursor_1.close()
