@@ -1,0 +1,233 @@
+2024-09-08 00:52:37,743 INFO: Есть подключение к БД: spider_1
+2024-09-08 00:52:37,743 INFO: Allowed domains: ['kp.kz', 'vecher.kz', 'kzvesti.kz', 'yk-news.kz', 'nv.kz', 'otyrar.kz']
+2024-09-08 00:52:37,744 INFO: Enabled addons:
+[]
+2024-09-08 00:52:37,750 INFO: Telnet Password: 13301abf57f3ddfb
+2024-09-08 00:52:37,775 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:52:37,775 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:52:37,854 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:52:37,856 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:52:37,856 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:52:37,856 INFO: Spider opened
+2024-09-08 00:52:37,860 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:52:37,861 INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-08 00:52:43,821 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-pernataya-postoyalica-zooparka-nedolyublivaet-muzhchina-63883
+2024-09-08 00:52:44,778 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/cifrovoy-tenge-chto-kogda-zachem-i-pochemu-63861
+2024-09-08 00:52:44,792 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-moshennik-predstavlyalsya-zamestitelem-akima-i-vymanival-dengi-u-63880
+2024-09-08 00:52:46,023 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-vko-naznachen-akim-katon-karagayskogo-rayona-63881
+2024-09-08 00:52:46,229 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/ukrotiteli-atoma-kak-v-vko-proizvodyat-yadernoe-toplivo-63882
+2024-09-08 00:52:46,798 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/sneg-ozhidaetsya-v-vostochnom-kazahstane-63877
+2024-09-08 00:52:47,044 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-v-chest-otkrytiya-stadiona-organizuyut-yarmarku-i-koncert-63876
+2024-09-08 00:52:47,762 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-proshel-ocherednoy-reyd-po-vyyavleniyu-lyudey-bez-opredelennogo-mesta-zhitelstva-63878
+2024-09-08 00:52:48,359 WARNING: Новость добавлена в базу: https://otyrar.kz/2023/09/s-noutbukom-vozle-trassy-lovyat-internet-selskie-uchitelya-v-turkestanskoj-oblasti/
+2024-09-08 00:52:48,561 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-kazahstane-nachalsya-osenniy-prizyv-v-armiyu-63875
+2024-09-08 00:52:50,614 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-vko-delo-po-ubiystvu-v-novoy-buhtarme-rassmotreli-s-uchastiem-prisyazhnyh-zasedateley-63548
+2024-09-08 00:52:51,628 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/edinyy-chasovoy-poyas-v-kazahstane-deputaty-trebuyut-vernut-prezhnee-vremya-63879
+2024-09-08 00:52:51,864 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D1%86%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%80%D0%B5%D1%88%D0%BE%D0%BA-%D0%B2-%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%B8-%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%BD%D0%BE-%D0%B0%D1%80%D1%85%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B0
+2024-09-08 00:52:51,955 INFO: Ссылка уже существует в базе TEMP: https://www.kp.kz/daily/27629/4980237/
+2024-09-08 00:52:51,973 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%A1%D0%9B%D0%98%D0%A8%D0%9A%D0%9E%D0%9C-%D0%93%D0%A0%D0%9E%D0%9C%D0%9A%D0%9E%D0%95-%D0%98%D0%9C%D0%AF
+2024-09-08 00:52:52,179 WARNING: Новость добавлена в базу: https://www.kp.kz/online/news/5981472/
+2024-09-08 00:52:52,313 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/kazahstancy-mogut-ocenit-shkolnye-uchebniki-kotorye-hotyat-vnedrit-v-2025-godu-63856
+2024-09-08 00:52:53,151 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/chaevye-i-depozity-mogut-zapretit-v-zavedeniyah-kazahstana-63857
+2024-09-08 00:52:53,205 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%C2%AB%D0%97%D0%9E%D0%9B%D0%9E%D0%A2%D0%9E%D0%95%C2%BB-%D0%9C%D0%95%D0%9D%D0%AC%D0%A8%D0%98%D0%9D%D0%A1%D0%A2%D0%92%D0%9E
+2024-09-08 00:52:53,330 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/kakoy-vklad-vnosit-gmk-v-razvitie-kazahstana-63855
+2024-09-08 00:52:53,405 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/probnye-testy-na-prava-mogut-vvesti-v-kazahstane-63864
+2024-09-08 00:52:53,626 WARNING: Новость добавлена в базу: https://www.kp.kz/online/news/5981459/
+2024-09-08 00:54:05,318 INFO: Есть подключение к БД: spider_1
+2024-09-08 00:54:05,319 INFO: Allowed domains: ['kp.kz', 'vecher.kz', 'kzvesti.kz', 'yk-news.kz', 'nv.kz', 'otyrar.kz']
+2024-09-08 00:54:05,319 INFO: Enabled addons:
+[]
+2024-09-08 00:54:05,326 INFO: Telnet Password: 0f3b7c76cbc019ac
+2024-09-08 00:54:05,355 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:54:05,355 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:54:05,427 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:54:05,429 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:54:05,429 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:54:05,429 INFO: Spider opened
+2024-09-08 00:54:05,433 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:54:05,433 INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-08 00:54:09,490 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-kazahstane-nachalsya-osenniy-prizyv-v-armiyu-63875
+2024-09-08 00:54:13,877 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%A0%D0%95%D0%A1%D0%9F%D0%A3%D0%91%D0%9B%D0%98%D0%9A%D0%90-%D0%9D%D0%90%D0%9D%D0%9E%D0%A1%D0%98%D0%A2-%D0%9E%D0%A2%D0%92%D0%95%D0%A2%D0%9D%D0%AB%D0%99-%D0%A3%D0%94%D0%90%D0%A0
+2024-09-08 00:54:14,017 INFO: Ссылка уже существует в базе TEMP: https://kzvesti.kz/pravila-ispolzovanija-materialov/
+2024-09-08 00:54:14,137 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/sneg-ozhidaetsya-v-vostochnom-kazahstane-63877
+2024-09-08 00:54:14,732 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%A1%D0%9B%D0%98%D0%A8%D0%9A%D0%9E%D0%9C-%D0%93%D0%A0%D0%9E%D0%9C%D0%9A%D0%9E%D0%95-%D0%98%D0%9C%D0%AF
+2024-09-08 01:00:41,162 INFO: Есть подключение к БД: spider_1
+2024-09-08 01:00:41,163 INFO: Allowed domains: ['kp.kz', 'vecher.kz', 'kzvesti.kz', 'yk-news.kz', 'nv.kz', 'otyrar.kz']
+2024-09-08 01:00:41,163 INFO: Enabled addons:
+[]
+2024-09-08 01:00:41,169 INFO: Telnet Password: 6b1689e600f49d7e
+2024-09-08 01:00:41,197 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:00:41,197 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:00:41,275 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:00:41,277 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:00:41,277 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:00:41,277 INFO: Spider opened
+2024-09-08 01:00:41,280 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:00:41,281 INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-08 01:00:45,823 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/ukrotiteli-atoma-kak-v-vko-proizvodyat-yadernoe-toplivo-63882
+2024-09-08 01:01:27,290 INFO: Есть подключение к БД: spider_1
+2024-09-08 01:01:27,291 INFO: Allowed domains: ['kp.kz', 'vecher.kz', 'kzvesti.kz', 'yk-news.kz', 'nv.kz', 'otyrar.kz']
+2024-09-08 01:01:27,291 INFO: Enabled addons:
+[]
+2024-09-08 01:01:27,297 INFO: Telnet Password: 959e25a845f94a53
+2024-09-08 01:01:27,323 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:01:27,323 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:01:27,399 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:01:27,401 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:01:27,401 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:01:27,401 INFO: Spider opened
+2024-09-08 01:01:27,405 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:01:27,406 INFO: Telnet console listening on 127.0.0.1:6023
+2024-09-08 01:01:31,424 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/cifrovoy-tenge-chto-kogda-zachem-i-pochemu-63861
+2024-09-08 01:01:33,427 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-pernataya-postoyalica-zooparka-nedolyublivaet-muzhchina-63883
+2024-09-08 01:01:35,525 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/edinyy-chasovoy-poyas-v-kazahstane-deputaty-trebuyut-vernut-prezhnee-vremya-63879
+2024-09-08 01:01:35,973 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-vko-naznachen-akim-katon-karagayskogo-rayona-63881
+2024-09-08 01:01:36,310 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/sneg-ozhidaetsya-v-vostochnom-kazahstane-63877
+2024-09-08 01:01:37,113 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-v-chest-otkrytiya-stadiona-organizuyut-yarmarku-i-koncert-63876
+2024-09-08 01:01:37,730 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-ust-kamenogorske-moshennik-predstavlyalsya-zamestitelem-akima-i-vymanival-dengi-u-63880
+2024-09-08 01:01:38,306 INFO: Ссылка уже существует в базе TEMP: https://www.kp.kz/online/news/5981472/
+2024-09-08 01:01:38,999 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/v-kazahstane-nachalsya-osenniy-prizyv-v-armiyu-63875
+2024-09-08 01:01:39,215 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/%D1%83%D1%81%D1%82%D1%8C-%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA-%D0%B2-%D1%82%D1%80%D1%83%D0%B4%D0%B0%D1%85-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2-%D0%B8-%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%E2%80%A6
+2024-09-08 01:01:39,404 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/%D1%86%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BA%D0%BE%D1%80%D0%B5%D1%88%D0%BE%D0%BA-%D0%B2-%D1%8D%D0%BA%D1%81%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%B8-%D1%86%D0%B5%D1%80%D0%BA%D0%BE%D0%B2%D0%BD%D0%BE-%D0%B0%D1%80%D1%85%D0%B5%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BA%D0%B0%D0%B1%D0%B8%D0%BD%D0%B5%D1%82%D0%B0
+2024-09-08 01:01:40,135 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D0%B8%D0%B7-%D0%BA%D0%BE%D0%B3%D0%BE%D1%80%D1%82%D1%8B-%D0%BC%D0%B5%D1%87%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9
+2024-09-08 01:01:40,969 INFO: Ссылка уже существует в базе TEMP: https://www.kp.kz/online/news/5973606/
+2024-09-08 01:01:41,230 INFO: Ссылка уже существует в базе TEMP: https://www.kp.kz/online/news/5981459/
+2024-09-08 01:01:41,324 INFO: Ссылка уже существует в базе TEMP: https://yk-news.kz/news/eks-sovetnik-ministra-oborony-stal-sovetnikom-akima-vko-63860
+2024-09-08 01:01:41,415 INFO: Ссылка уже существует в базе TEMP: https://www.kp.kz/online/news/5973682/
+2024-09-08 01:01:41,603 WARNING: Новость добавлена в базу: https://otyrar.kz/2015/04/telekanal-otyrar-tv-nachal-veshhanie-v-cifrovoj-seti-id-tv/
+2024-09-08 01:01:41,642 WARNING: Новость добавлена в базу: https://yk-news.kz/news/%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA-%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%BD%D0%B5%D0%BB%D1%8C%D0%B7%D1%8F-%D0%B8%D1%81%D0%BF%D0%BE%D0%BB%D1%8C%D0%B7%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%8D%D0%BA%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D0%BD%D0%BE%D1%80%D0%BC%D0%B0%D1%82%D0%B8%D0%B2%D1%8B-%D0%B2%D1%80%D0%B5%D0%BC%D0%B5%D0%BD-%D0%A1%D0%A1%D0%A1%D0%A0
+2024-09-08 01:01:41,943 WARNING: Новость добавлена в базу: https://www.kp.kz/daily/27628/4979544/
+2024-09-08 01:01:42,057 WARNING: Новость добавлена в базу: https://yk-news.kz/video/neizvestnye-nadrugalis-nad-monumentom-chernobylcam-v-ust-kamenogorske-61437
+2024-09-08 01:01:42,695 WARNING: Новость добавлена в базу: https://yk-news.kz/news/dog-fest-proydet-v-ust-kamenogorske-63828

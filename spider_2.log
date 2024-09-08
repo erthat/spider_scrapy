@@ -1,0 +1,330 @@
+2024-09-08 00:52:37,870 INFO: Есть подключение к БД: spider_2
+2024-09-08 00:52:37,871 INFO: Allowed domains: ['pricom.kz', 'baltija.eu', 'belta.by', 'vb.kg', 'kabar.kg', 'podrobno.uz']
+2024-09-08 00:52:37,871 INFO: Enabled addons:
+[]
+2024-09-08 00:52:37,871 INFO: Telnet Password: d79520e270f72245
+2024-09-08 00:52:37,872 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:52:37,872 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:52:37,872 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:52:37,873 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:52:37,873 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:52:37,873 INFO: Spider opened
+2024-09-08 00:52:37,873 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:52:37,874 INFO: Telnet console listening on 127.0.0.1:6024
+2024-09-08 00:52:38,840 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zaraznaya-ospa-obezyan-v-atyrau-oczenite-gotovnost.html
+2024-09-08 00:52:39,294 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-atyrau-poyavilsya-optovo-raspredelitelnyj-czentr.html
+2024-09-08 00:52:39,317 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/czeny-obeshhayut-dostupnye.html
+2024-09-08 00:52:39,470 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/doktor-fiziko-matematicheskih-nauk-kazahstanu-neobhodimy-neskolko-aes.html
+2024-09-08 00:52:39,493 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/vospitanie-v-seme-osnova-silnogo-naroda.html
+2024-09-08 00:52:39,755 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vazhnyj-igrok-v-globalnom-obrazovatelnom-i-nauchnom-sotrudnichestve.html
+2024-09-08 00:52:40,008 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vybor-v-polzu-budushhego.html
+2024-09-08 00:52:40,186 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/bolee-700-atyrauskih-semej-poluchili-soczpomoshh-ot-gosudarstva.html
+2024-09-08 00:52:40,411 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/arman-kushkarov-meropriyatie-karavan-edinstva-v-ramkah-vsemirnyh-igr-kochevnikov-proshlo-na-vysshem-urovne.html
+2024-09-08 00:52:40,612 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/brifing/agentstvo-po-zashhite-i-razvitiyu-konkurenczii-vzyskano-bolee-1-mlrd-shtrafa.html
+2024-09-08 00:52:41,791 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/den-yazykov-naroda-kazahstana-v-atyrau-otmetili-luchshih.html
+2024-09-08 00:52:43,646 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/za-proshedshee-leto-tysyacha-molodyh-lyudej-uluchshili-ekologiyu-regiona.html
+2024-09-08 00:52:43,968 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/aktualno/vstante-v-ochered-elektronnuyu.html
+2024-09-08 00:52:44,469 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/eto-interesno/festival-vinograda-v-kulsary.html
+2024-09-08 00:52:44,812 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/kitaj-k-2040-godu-mozhet-utroit-ustanovlennuyu-moshhnost-aes.html
+2024-09-08 00:52:44,896 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/proshla-press-konferencziya-posvyashhennaya-podgotovke-k-5-m-vsemirnym-igram-kochevnikov.html
+2024-09-08 00:52:44,940 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/v-atyrau-podarili-radost-detyam-s-ogranichennymi-vozmozhnostyami.html
+2024-09-08 00:52:45,098 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/intervyu/aes-strategicheskaya-neobhodimost.html
+2024-09-08 00:52:45,234 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/soobshhenie-maslihata-goroda-atyrau-12.html
+2024-09-08 00:52:45,645 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/religiya-obshhestvo/radio-azan-zapuskaet-vtoroj-sezon-viktoriny.html
+2024-09-08 00:52:45,773 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/zagadki-na-treh-yazykah-i-voprosy-s-podvohom-kak-v-atyrau-otmetili-den-yazykov-naroda-kazahstana.html
+2024-09-08 00:52:45,873 WARNING: Новость добавлена в базу: https://kabar.kg/news/akylbek-zhaparov-provel-pervoe-apparatnoe-soveshchanie-v-novom-zdanii-administratcii-prezidenta-yntymak-ordo/
+2024-09-08 00:52:46,037 WARNING: Новость добавлена в базу: https://kabar.kg/news/deputat-zhk-predlagaet-priniat-karatel-nye-i-zhestkie-mery-dlia-resheniia-problemy-s-probkami-v-bishkeke/
+2024-09-08 00:52:46,135 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/referendum-skolko-v-atyrauskoj-oblasti-izbirkomov.html
+2024-09-08 00:52:46,198 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/gotovitsya-karta-vseh-razlivov-ostavshihsya-v-stepi-posle-pavodka-vokrug-atyrau.html
+2024-09-08 00:52:46,298 WARNING: Новость добавлена в базу: https://pricom.kz/kollonka-dezhurnogo/obyazatelnaya-perezagruzka.html
+2024-09-08 00:52:46,456 WARNING: Новость добавлена в базу: https://pricom.kz/ekologiya/novyj-put-razvitiya.html
+2024-09-08 00:52:46,756 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/vstretil-schaste-v-poezde.html
+2024-09-08 00:52:46,895 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/kontaktyi
+2024-09-08 00:52:46,920 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/stavka-na-mladoe-plemya.html
+2024-09-08 00:52:47,026 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/chto-narushili-atyrausczy.html
+2024-09-08 00:52:47,254 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/da-budet-bolshe-speczialistov.html
+2024-09-08 00:52:47,432 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/soyuzniki-obsudili-politicheskij-dokument.html
+2024-09-08 00:52:47,641 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/istoriya-kotoruyu-my-stroim.html
+2024-09-08 00:52:48,039 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/kakie-istochniki-energii-samye-zagryaznyayushhie-i-opasnye-v-mire-issledovanie.html
+2024-09-08 00:52:48,234 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/i-na-ih-ulitse-budet-prazdnik.html
+2024-09-08 00:52:48,257 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/odnoj-iz-pervostepennyh-zadach-pravitelstva-ostaetsya-obespechenie-gazom-naseleniya-i-ekonomiki.html
+2024-09-08 00:52:48,293 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/1600-torgovyih-kioskov-snesli-vlasti-alma.html
+2024-09-08 00:52:48,405 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/monopolistyi-podotchetnyi.html
+2024-09-08 00:52:48,458 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/sleduet-predprinyat-sistemnye-usiliya-dlya-polnoczennogo-raskrytiya-promyshlennogo-potencziala-strany.html
+2024-09-08 00:52:48,607 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/zhizn-napolnennaya-smyslom.html
+2024-09-08 00:52:48,624 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/v-atyrauskoj-oblasti-propali-lyudi-foto.html
+2024-09-08 00:52:48,788 WARNING: Новость добавлена в базу: https://pricom.kz/sport/uefa-nominiroval-pobednyj-gol-maksima-samorodova-na-zvanie-samogo-krasivogo.html
+2024-09-08 00:52:49,031 WARNING: Новость добавлена в базу: https://pricom.kz/kultura/peremenka-4.html
+2024-09-08 00:52:49,072 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/vibory/v-atyrauskoj-oblasti-progolosuyut-svyshe-35-tysyach-vahtovyh-rabochih.html
+2024-09-08 00:52:49,092 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/nuzhno-zakonodatelno-reglamentirovat-czeli-funkczii-vidy-metody-finansirovaniya-i-drugie-aspekty-ih-deyatelnosti.html
+2024-09-08 00:52:49,506 WARNING: Новость добавлена в базу: https://pricom.kz/gorod/vodu-otklyuchat-v-atyrau-v-noch-na-7-avgusta.html
+2024-09-08 00:52:50,207 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/spasat-gotovy.html
+2024-09-08 00:52:50,568 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/bespretsedentnyiy-rekord.html
+2024-09-08 00:52:50,625 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-kazahstane-budut-snizheny-nalogovye-otchisleniya-ot-zarabotnoj-platy.html
+2024-09-08 00:52:50,784 WARNING: Новость добавлена в базу: https://pricom.kz/tet-a-tet/predskazavshie-pandemiyu-astrologi-dali-prognoz-na-2021-god.html
+2024-09-08 00:52:51,467 WARNING: Новость добавлена в базу: https://pricom.kz/aktualno/mezhdunarodnyj-nablyudatel-utrachivaet-svoj-status-po-zavershenii-izbiratelnoj-kampanii.html
+2024-09-08 00:52:51,758 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/v-atyrau-bojczy-naczionalnoj-gvardii-zaderzhali-vora-dorogogo-smartfona.html
+2024-09-08 00:52:51,999 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/priyut-dlya-druga.html
+2024-09-08 00:52:52,356 WARNING: Новость добавлена в базу: https://pricom.kz/zdorovie/29-chelovek-vyzdoroveli-ot-koronavirusa-v-atyrau.html
+2024-09-08 00:52:52,763 WARNING: Новость добавлена в базу: https://pricom.kz/staryiy-gorod/gde-eta-ulicza-gde-etot-dom-2.html
+2024-09-08 00:52:53,698 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/vstrecha-s-novoy-zhiznyu.html
+2024-09-08 00:54:05,444 INFO: Есть подключение к БД: spider_2
+2024-09-08 00:54:05,445 INFO: Allowed domains: ['pricom.kz', 'baltija.eu', 'belta.by', 'vb.kg', 'kabar.kg', 'podrobno.uz']
+2024-09-08 00:54:05,445 INFO: Enabled addons:
+[]
+2024-09-08 00:54:05,445 INFO: Telnet Password: 0166c030a8f06cc5
+2024-09-08 00:54:05,446 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:54:05,446 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:54:05,446 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:54:05,446 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:54:05,447 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:54:05,447 INFO: Spider opened
+2024-09-08 00:54:05,447 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:54:05,447 INFO: Telnet console listening on 127.0.0.1:6024
+2024-09-08 00:54:08,127 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/doktor-fiziko-matematicheskih-nauk-kazahstanu-neobhodimy-neskolko-aes.html
+2024-09-08 00:54:08,205 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vybor-v-polzu-budushhego.html
+2024-09-08 00:54:08,400 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/czeny-obeshhayut-dostupnye.html
+2024-09-08 00:54:09,279 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-atyrau-poyavilsya-optovo-raspredelitelnyj-czentr.html
+2024-09-08 00:54:10,239 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/vospitanie-v-seme-osnova-silnogo-naroda.html
+2024-09-08 00:54:10,616 INFO: Ссылка уже существует в базе TEMP: https://www.vb.kg/doc/305382_aziia_news:_pytalis_podjech_kvartiry_tekebaeva_ili...html
+2024-09-08 00:54:10,640 INFO: Ссылка уже существует в базе TEMP: https://www.vb.kg/doc/304776_fabyla:_istinnymi_hoziaevami_mekenchila_iavliautsia_japarov_i_myrzakmatov.html
+2024-09-08 00:54:11,054 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zaraznaya-ospa-obezyan-v-atyrau-oczenite-gotovnost.html
+2024-09-08 00:54:11,615 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/arman-kushkarov-meropriyatie-karavan-edinstva-v-ramkah-vsemirnyh-igr-kochevnikov-proshlo-na-vysshem-urovne.html
+2024-09-08 00:54:15,028 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/bolee-700-atyrauskih-semej-poluchili-soczpomoshh-ot-gosudarstva.html
+2024-09-08 00:54:15,582 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/brifing/agentstvo-po-zashhite-i-razvitiyu-konkurenczii-vzyskano-bolee-1-mlrd-shtrafa.html
+2024-09-08 01:00:41,292 INFO: Есть подключение к БД: spider_2
+2024-09-08 01:00:41,292 INFO: Allowed domains: ['pricom.kz', 'baltija.eu', 'belta.by', 'vb.kg', 'kabar.kg', 'podrobno.uz']
+2024-09-08 01:00:41,292 INFO: Enabled addons:
+[]
+2024-09-08 01:00:41,293 INFO: Telnet Password: 985ba56b51dcaf41
+2024-09-08 01:00:41,293 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:00:41,293 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:00:41,294 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:00:41,294 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:00:41,294 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:00:41,294 INFO: Spider opened
+2024-09-08 01:00:41,295 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:00:41,295 INFO: Telnet console listening on 127.0.0.1:6024
+2024-09-08 01:00:42,582 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zaraznaya-ospa-obezyan-v-atyrau-oczenite-gotovnost.html
+2024-09-08 01:00:42,604 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/doktor-fiziko-matematicheskih-nauk-kazahstanu-neobhodimy-neskolko-aes.html
+2024-09-08 01:00:42,725 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/arman-kushkarov-meropriyatie-karavan-edinstva-v-ramkah-vsemirnyh-igr-kochevnikov-proshlo-na-vysshem-urovne.html
+2024-09-08 01:00:43,545 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/vospitanie-v-seme-osnova-silnogo-naroda.html
+2024-09-08 01:00:43,591 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/bolee-700-atyrauskih-semej-poluchili-soczpomoshh-ot-gosudarstva.html
+2024-09-08 01:00:43,963 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vazhnyj-igrok-v-globalnom-obrazovatelnom-i-nauchnom-sotrudnichestve.html
+2024-09-08 01:00:44,627 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vybor-v-polzu-budushhego.html
+2024-09-08 01:00:46,967 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/czeny-obeshhayut-dostupnye.html
+2024-09-08 01:00:46,998 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-atyrau-poyavilsya-optovo-raspredelitelnyj-czentr.html
+2024-09-08 01:01:27,415 INFO: Есть подключение к БД: spider_2
+2024-09-08 01:01:27,416 INFO: Allowed domains: ['pricom.kz', 'baltija.eu', 'belta.by', 'vb.kg', 'kabar.kg', 'podrobno.uz']
+2024-09-08 01:01:27,416 INFO: Enabled addons:
+[]
+2024-09-08 01:01:27,416 INFO: Telnet Password: 7022e9fc649f9998
+2024-09-08 01:01:27,417 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:01:27,417 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:01:27,417 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:01:27,418 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:01:27,418 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:01:27,418 INFO: Spider opened
+2024-09-08 01:01:27,418 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:01:27,418 INFO: Telnet console listening on 127.0.0.1:6024
+2024-09-08 01:01:28,473 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zaraznaya-ospa-obezyan-v-atyrau-oczenite-gotovnost.html
+2024-09-08 01:01:28,780 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/czeny-obeshhayut-dostupnye.html
+2024-09-08 01:01:28,804 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vybor-v-polzu-budushhego.html
+2024-09-08 01:01:28,820 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/doktor-fiziko-matematicheskih-nauk-kazahstanu-neobhodimy-neskolko-aes.html
+2024-09-08 01:01:29,035 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/bolee-700-atyrauskih-semej-poluchili-soczpomoshh-ot-gosudarstva.html
+2024-09-08 01:01:30,508 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/vazhnyj-igrok-v-globalnom-obrazovatelnom-i-nauchnom-sotrudnichestve.html
+2024-09-08 01:01:30,572 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/vospitanie-v-seme-osnova-silnogo-naroda.html
+2024-09-08 01:01:30,716 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/brifing/agentstvo-po-zashhite-i-razvitiyu-konkurenczii-vzyskano-bolee-1-mlrd-shtrafa.html
+2024-09-08 01:01:30,923 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/arman-kushkarov-meropriyatie-karavan-edinstva-v-ramkah-vsemirnyh-igr-kochevnikov-proshlo-na-vysshem-urovne.html
+2024-09-08 01:01:31,753 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/za-proshedshee-leto-tysyacha-molodyh-lyudej-uluchshili-ekologiyu-regiona.html
+2024-09-08 01:01:31,991 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/eto-interesno/festival-vinograda-v-kulsary.html
+2024-09-08 01:01:32,157 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/aktualno/vstante-v-ochered-elektronnuyu.html
+2024-09-08 01:01:32,412 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/den-yazykov-naroda-kazahstana-v-atyrau-otmetili-luchshih.html
+2024-09-08 01:01:32,678 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-atyrau-poyavilsya-optovo-raspredelitelnyj-czentr.html
+2024-09-08 01:01:34,034 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/v-atyrau-podarili-radost-detyam-s-ogranichennymi-vozmozhnostyami.html
+2024-09-08 01:01:34,202 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/religiya-obshhestvo/radio-azan-zapuskaet-vtoroj-sezon-viktoriny.html
+2024-09-08 01:01:34,273 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/intervyu/aes-strategicheskaya-neobhodimost.html
+2024-09-08 01:01:34,398 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/soobshhenie-maslihata-goroda-atyrau-12.html
+2024-09-08 01:01:34,419 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zagadki-na-treh-yazykah-i-voprosy-s-podvohom-kak-v-atyrau-otmetili-den-yazykov-naroda-kazahstana.html
+2024-09-08 01:01:34,571 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/kitaj-k-2040-godu-mozhet-utroit-ustanovlennuyu-moshhnost-aes.html
+2024-09-08 01:01:35,454 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/kontaktyi
+2024-09-08 01:01:35,493 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/kollonka-dezhurnogo/obyazatelnaya-perezagruzka.html
+2024-09-08 01:01:35,538 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/sport/proshla-press-konferencziya-posvyashhennaya-podgotovke-k-5-m-vsemirnym-igram-kochevnikov.html
+2024-09-08 01:01:35,830 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/gotovitsya-karta-vseh-razlivov-ostavshihsya-v-stepi-posle-pavodka-vokrug-atyrau.html
+2024-09-08 01:01:35,887 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/chto-narushili-atyrausczy.html
+2024-09-08 01:01:36,326 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/soyuzniki-obsudili-politicheskij-dokument.html
+2024-09-08 01:01:36,381 WARNING: Новость добавлена в базу: https://www.vb.kg/doc/439254_bakyt_baketaev:_ia_ochen_rad_chto_filipp_kirkorov_priedet_v_kyrgyzstan.html
+2024-09-08 01:01:36,440 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/vstretil-schaste-v-poezde.html
+2024-09-08 01:01:36,774 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/stavka-na-mladoe-plemya.html
+2024-09-08 01:01:36,898 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/obshhestvo/zhizn-napolnennaya-smyslom.html
+2024-09-08 01:01:37,134 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/istoriya-kotoruyu-my-stroim.html
+2024-09-08 01:01:37,153 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/minzdrav-ves-shkolnogo-ryukzaka-mladsheklashek-ne-dolzhen-prevyshat-700-gramm.html
+2024-09-08 01:01:37,187 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/referendum-skolko-v-atyrauskoj-oblasti-izbirkomov.html
+2024-09-08 01:01:37,244 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/nuzhno-zakonodatelno-reglamentirovat-czeli-funkczii-vidy-metody-finansirovaniya-i-drugie-aspekty-ih-deyatelnosti.html
+2024-09-08 01:01:37,377 WARNING: Новость добавлена в базу: https://kabar.kg/news/zainidin-kurmanov-strana-obretaet-novoe-svezhee-dykhanie/
+2024-09-08 01:01:37,608 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/ekologiya/novyj-put-razvitiya.html
+2024-09-08 01:01:37,907 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/kakie-istochniki-energii-samye-zagryaznyayushhie-i-opasnye-v-mire-issledovanie.html
+2024-09-08 01:01:38,100 WARNING: Новость добавлена в базу: https://kabar.kg/news/olimpiada-2024-novaia-glava-v-istorii-kyrgyzskogo-sporta/
+2024-09-08 01:01:38,327 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/posyl-k-dejstviyu.html
+2024-09-08 01:01:38,348 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/odnoj-iz-pervostepennyh-zadach-pravitelstva-ostaetsya-obespechenie-gazom-naseleniya-i-ekonomiki.html
+2024-09-08 01:01:38,396 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/da-budet-bolshe-speczialistov.html
+2024-09-08 01:01:39,502 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/vyyavlen-fakt-organizaczii-nezakonnogo-igornogo-biznesa.html
+2024-09-08 01:01:39,629 WARNING: Новость добавлена в базу: https://kabar.kg/news/bishkekchan-priglashaiut-na-besplatnye-kursy-po-60-professiiam/
+2024-09-08 01:01:39,681 WARNING: Новость добавлена в базу: https://kabar.kg/news/glava-mintruda-kr-obsudil-vozmozhnost-trudoustroistva-kyrgyzstantcev-v-tatarstane/
+2024-09-08 01:01:39,865 WARNING: Новость добавлена в базу: https://pricom.kz/novosti/v-atyrau-sud-oglasil-prigovor-byvshim-eks-chinovnikam.html
+2024-09-08 01:01:39,945 WARNING: Новость добавлена в базу: https://kabar.kg/news/500-kyrgyzstantcev-mogut-byt-trudoustroeny-na-kontcerne-kamaz/
+2024-09-08 01:01:39,992 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/vibory/v-atyrauskoj-oblasti-progolosuyut-svyshe-35-tysyach-vahtovyh-rabochih.html
+2024-09-08 01:01:40,288 WARNING: Новость добавлена в базу: https://kabar.kg/news/mintruda-kyrgyzstana-nachinaet-proekt-po-trudoustroistvu-molodezhi-i-migrantov/
+2024-09-08 01:01:40,589 WARNING: Новость добавлена в базу: https://kabar.kg/news/kyrgyzstantcy-smogut-rabotat-v-iaponii-so-statusom-prebyvaniia-rabotnik-s-opredelennymi-navykami/
+2024-09-08 01:01:40,719 WARNING: Новость добавлена в базу: https://kabar.kg/news/okolo-8-tys-kyrgyzstantcam-planiruiut-predostavit-rabotu-v-agrosektore-velikobritanii/
+2024-09-08 01:01:40,844 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/polsha-vydelit-okolo-1-mlrd-evro-na-stroitelstvo-pervoj-aes.html
+2024-09-08 01:01:40,931 WARNING: Новость добавлена в базу: https://kabar.kg/news/bishkekasfal-tservis-ishchet-sotrudnikov-zarplata-ot-25-tys-somov-i-besplatnyi-obed/
+2024-09-08 01:01:41,001 WARNING: Новость добавлена в базу: https://pricom.kz/lichnost/skonchalsya-bolat-nazarbaev.html
+2024-09-08 01:01:41,294 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/voennyj-produkt-v-dejstvii.html
+2024-09-08 01:01:41,435 WARNING: Новость добавлена в базу: https://kabar.kg/news/v-kyrgyzstane-planiruiut-trudoustroit-5-tys-grazhdan-v-kompanii-po-obsluzhivaniiu-trakov/
+2024-09-08 01:01:41,464 WARNING: Новость добавлена в базу: https://kabar.kg/news/s-nachala-goda-bolee-19-tys-chelovek-priniali-uchastie-v-iarmarkakh-vakansii-mintruda/
+2024-09-08 01:01:41,551 WARNING: Новость добавлена в базу: https://pricom.kz/lichnost/budem-pomnit.html
+2024-09-08 01:01:41,577 WARNING: Новость добавлена в базу: https://kabar.kg/news/mintruda-predlagaet-proekt-massovogo-trudoustroistva-bezrabotnykh-v-kyrgyzstane-i-za-rubezhom/
+2024-09-08 01:01:41,692 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/gorod/vodu-otklyuchat-v-atyrau-v-noch-na-7-avgusta.html
+2024-09-08 01:01:41,748 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/novosti/v-atyrau-bojczy-naczionalnoj-gvardii-zaderzhali-vora-dorogogo-smartfona.html
+2024-09-08 01:01:41,798 WARNING: Новость добавлена в базу: https://pricom.kz/kultura/byit-otvetstvennyimi.html
+2024-09-08 01:01:41,863 WARNING: Новость добавлена в базу: https://kabar.kg/news/v-patrul-nuiu-militciiu-ishchut-sotrudnikov-zarplata-vyshe-40-tys-somov/
+2024-09-08 01:01:41,916 WARNING: Новость добавлена в базу: https://pricom.kz/obshhestvo/kto-stanet-chelovekom-goda.html
+2024-09-08 01:01:41,980 INFO: Ссылка уже существует в базе TEMP: https://pricom.kz/aktualno/mezhdunarodnyj-nablyudatel-utrachivaet-svoj-status-po-zavershenii-izbiratelnoj-kampanii.html
+2024-09-08 01:01:42,034 WARNING: Новость добавлена в базу: https://pricom.kz/vibory/deputatov-mazhilisa-viii-sozyva-zaregistriroval-czik-rk.html
+2024-09-08 01:01:42,083 WARNING: Новость добавлена в базу: https://pricom.kz/gorod/idet-remont-marshruty-kakih-avtobusov-izmeneny.html
+2024-09-08 01:01:42,631 INFO: Ссылка уже существует в базе TEMP: https://kabar.kg/news/deputat-zhk-predlagaet-priniat-karatel-nye-i-zhestkie-mery-dlia-resheniia-problemy-s-probkami-v-bishkeke/
+2024-09-08 01:01:42,721 WARNING: Новость добавлена в базу: https://kabar.kg/news/akylbek-zhaparov-my-nakhodimsia-na-poroge-novykh-svershenii/
+2024-09-08 01:01:42,843 WARNING: Новость добавлена в базу: https://kabar.kg/news/dva-komiteta-zhk-rassmotreli-kandidaturu-absattara-syrgabaeva-na-naznachenie-glavoi-mintransa/

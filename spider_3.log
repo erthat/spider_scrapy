@@ -1,0 +1,659 @@
+2024-09-08 00:52:37,882 INFO: Есть подключение к БД: spider_3
+2024-09-08 00:52:37,883 INFO: Allowed domains: ['vestikavkaza.ru', 'scmp.com', 'newsweek.com', 'edition.cnn.com', 'izdatelstvo-sk.kz']
+2024-09-08 00:52:37,883 INFO: Enabled addons:
+[]
+2024-09-08 00:52:37,883 INFO: Telnet Password: a6cc299831f29ad9
+2024-09-08 00:52:37,884 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:52:37,884 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:52:37,885 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:52:37,885 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:52:37,885 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:52:37,885 INFO: Spider opened
+2024-09-08 00:52:37,885 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:52:37,886 INFO: Telnet console listening on 127.0.0.1:6025
+2024-09-08 00:52:38,112 WARNING: Remote certificate is not valid for hostname "www.nv.kz"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.nv.kz'))])
+2024-09-08 00:52:39,958 INFO: Ignoring response <404 https://baltija.eu:443/user/rss>: HTTP status code is not handled or not allowed
+2024-09-08 00:52:40,061 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/pozdravlenie-akima-sko-gaueza-nurmuhambetova-s-dnem-konstitucii6039/
+2024-09-08 00:52:40,441 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/na-zasedanii-akimata-sko-obsudili-voprosi-po-provedeniu8403/
+2024-09-08 00:52:40,450 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-petropavlovske-na-stadione-dinamo-sostoyalos-otkritie4029/
+2024-09-08 00:52:40,596 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/new/poslanie-glavi-gosudarstva-kasim-gomarta-tokaeva6039/
+2024-09-08 00:52:40,760 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-sko-s-uchastiem-sovetnika-premier-ministra5920/
+2024-09-08 00:52:41,062 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/severokazahstanskoe-agroformirovanie-too-budennoe-sk4290/
+2024-09-08 00:52:41,712 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6940/
+2024-09-08 00:52:41,773 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-gilci-neskolkih-mnogotagek-boatsa3021/
+2024-09-08 00:52:42,179 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ob-epidemiologicheskoi-situacii-v-sko5930/
+2024-09-08 00:52:42,272 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-tridcat-raz-virosla-zabolevaemost-koklushem5930/
+2024-09-08 00:52:42,313 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akimat-sko-i-ao-kazpochta-zakluchili-memorandum4029/
+2024-09-08 00:52:42,333 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-s-dve-tisachi-vtorogo-goda4928/
+2024-09-08 00:52:42,383 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/predstavitelei-mehanizirovannih-brigad-uchastvovavshih-v-likvidacii5039/
+2024-09-08 00:52:42,446 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-nachala-goda-v-kazahstane-zaregistrirovali6039/
+2024-09-08 00:52:42,497 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-zapustili-unikalniy-socialniy-proekt5039/
+2024-09-08 00:52:42,560 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-dvadcat-pervogo-dekabrya3920/
+2024-09-08 00:52:42,578 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-prinyalo-uchastie-v-akcii-doroga-v-shkolu6039/
+2024-09-08 00:52:42,610 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sentabre-tekushego-goda-v-kazahstane-startuet5930/
+2024-09-08 00:52:42,625 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ministr-zdravoohraneniya-respubliki-kazahstan5928/
+2024-09-08 00:52:42,673 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-nazarbaev-intellektualnoi-shkole-petropavlovska-proshlo6094/
+2024-09-08 00:52:42,684 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6039/
+2024-09-08 00:52:42,724 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/severo-kazahstanskiy-universitet-imeni-manasha-kozibaeva5290/
+2024-09-08 00:52:42,797 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/visshiy-mnogoprofilniy-kolledg-zeinep5930/
+2024-09-08 00:52:42,848 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zavershaetsa-stroitelstvo-studencheskogo-obshegitiya7049/
+2024-09-08 00:52:42,860 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/proekt-pod-nazvaniem-shag-k-vozmognostyam5039/
+2024-09-08 00:52:42,937 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-chetire-tovaroproizvoditela-sko-prinyali-uchastie4902/
+2024-09-08 00:52:43,094 ERROR: Gave up retrying <GET https://izdatelstvo-sk.kz/news/raion-imeni-gabita-musrepova5039/> (failed 3 times): 500 Internal Server Error
+2024-09-08 00:52:43,101 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-dva-studenta-iz-kitaya-pribili-v-kozybayev-university6039/
+2024-09-08 00:52:43,202 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nesmotra-na-slognie-pogodnie-usloviya6938/
+2024-09-08 00:52:43,355 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/nacionalnaya-komanda-kazahstana-v-astane4928/
+2024-09-08 00:52:43,368 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-severo-kazahstanskoj-universalnoj-nauchnoj-biblioteke-im-sabita-mukanova-sostoyalas-vstrecha-v-for/
+2024-09-08 00:52:43,438 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kitae-zavershilsya-xxll-chempionat-azii4920/
+2024-09-08 00:52:43,511 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/srednyaya-shkola-14-imeni-yugagarina-otmetila-svoyu-pyatdesyat-vosmuyu-godovshinu/
+2024-09-08 00:52:43,597 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/saundtreki-iz-igri-prestolov-i-garri-pottera4930/
+2024-09-08 00:52:43,722 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/problemu-otsutstviya-iskusstvennih-nerovnostei-vozle-shkol6029/
+2024-09-08 00:52:43,768 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/den-otkritih-dverei-s-uchastiem-akima-goroda-petropavlovska6039/
+2024-09-08 00:52:43,777 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-shkolniki-razrabotali-model-agrotehnicheskoj-robotizirovannoj-platformy/
+2024-09-08 00:52:43,825 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-pernataya-postoyalica-zooparka-nedolyublivaet-muzhchina-63883&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%BF%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B0%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BB%D0%B8%D1%86%D0%B0%20%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%D0%B0%20%C2%AB%D0%BD%D0%B5%D0%B4%D0%BE%D0%BB%D1%8E%D0%B1%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D1%82%C2%BB%20%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0&image=https://static.yk-news.kz/202409061602ra9XMMDGC9k.jpg&description=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8E%20%D1%81%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%B1%D0%B5%D1%80%D0%BA%D1%83%D1%82%D0%B0%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%BE-%D0%BB%D0%B0%D0%BD%D0%B4%D1%88%D0%B0%D1%84%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE-%D1%8D%D1%82%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%83%D0%B7%D0%B5%D1%8F-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%A5%D0%B8%D1%89%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%82%D0%B8%D1%86%D0%B0%20%D0%91%D0%B5%D1%80%D1%82%D0%B0,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D1%8F%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%20%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%D0%B0,%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%20%D1%81%D0%B5%D0%B1%D1%8F,%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BA%20%D0%B2%D0%BE%D0%BB%D1%8C%D0%B5%D1%80%D1%83%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8F%D1%82%20%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D1%8B%20%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%BE%D1%81%D1%82%D0%B0.%20%D0%9F%D1%80%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5 
+2024-09-08 00:52:43,899 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-vrachi-dva-s-polovinoi-chasa-borolis-za-gizn6938/
+2024-09-08 00:52:43,985 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-proshel-regionalnyj-chempionat-professionalnogo-masterstva-worldskills-kazakhstan/
+2024-09-08 00:52:43,998 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-ramkah-rabochey-poezdki-sko4920/
+2024-09-08 00:52:44,071 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/ugolovnoe-delo-vozbuzdeno-posle-massovogo-otravlenia-v-baksane.html
+2024-09-08 00:52:44,090 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/oblastnaya-biblioteka-im-smukanova-prinyala-uchastie-v-iv-knizhnoj-vystavke-yarmarke-eurasian-book-f/
+2024-09-08 00:52:44,216 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-rabochim-vizitom-v-sko-pobival4928/
+2024-09-08 00:52:44,266 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/articles/satera-v-krymu-gde-nahoditsa-kak-dobratsa-gde-ostanovitsa-cem-zanatsa.html
+2024-09-08 00:52:44,306 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-dlya-ambicioznih5892/
+2024-09-08 00:52:44,329 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-raicentre-smirnovo-razgorayetsya-konflikt6930/
+2024-09-08 00:52:44,710 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nedavno-v-sele-saumalkol-ajyrtauskogo-rajona-otkrylsya-obrazovatelnyj-kompleks-al-farabi/
+2024-09-08 00:52:44,845 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-moshennik-predstavlyalsya-zamestitelem-akima-i-vymanival-dengi-u-63880&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%BB%D1%81%D1%8F%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%20%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%20%D0%B8%20%D0%B2%D1%8B%D0%BC%D0%B0%D0%BD%D0%B8%D0%B2%D0%B0%D0%BB%20%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8%20%D1%83%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9&image=https://static.yk-news.kz/202310171046_0.jpg&description=%D0%9F%D0%BE%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%90%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D1%80%D0%B0,%20%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B7%D0%B0%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%2050%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%D0%B8%20%D1%82%D0%B5%D0%BD%D0%B3%D0%B5,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%9D%D0%B5%D0%BA%D0%B8%D0%B9%20%D0%90.%20%D0%90%D0%B1%D0%B4%D1%80%D0%B0%D1%85%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%20%D1%83%D0%B6%D0%B5%20%D0%BE%D1%82%D0%B1%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%20%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BC%D0%B5%D1%81%D1%82%D0%B0%D1%85%20%D0%BB%D0%B8%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B%20%D0%B7%D0%B0%20%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE.%C2%AB%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%B2%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%BA%20%D1%81%D0%BE%D1%82%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83,%20%D0%BE%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9,%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%8F%D1%81%D1%8C%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%20%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8,%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%B8%D0%BB%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB 
+2024-09-08 00:52:44,972 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/dorogi-k-zvezdam-solodovnika5039/
+2024-09-08 00:52:45,193 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-shahmati5839/
+2024-09-08 00:52:45,418 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/gitelnica-petropavlovska-asel-litvinenko6039/
+2024-09-08 00:52:45,445 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/rasporyageniem-akima-sko5930/
+2024-09-08 00:52:46,240 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/ukrotiteli-atoma-kak-v-vko-proizvodyat-yadernoe-toplivo-63882&title=%D0%A3%D0%BA%D1%80%D0%BE%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B0%D1%82%D0%BE%D0%BC%D0%B0:%20%D0%BA%D0%B0%D0%BA%20%D0%B2%20%D0%92%D0%9A%D0%9E%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%8F%D1%82%20%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D0%BE%D0%B5%20%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE&image=https://static.yk-news.kz/202409061828sborka.jpg&description=%D0%92%202021%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B2%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%BC%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%BB%D1%81%D1%8F%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%20%D0%A2%D0%9E%D0%9E%20%C2%AB%D0%A3%D0%BB%D1%8C%D0%B1%D0%B0-%D0%A2%D0%92%D0%A1%C2%BB.%20%D0%9D%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D0%B0%20%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C%20%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%B5%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B8,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D1%8F%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D1%85%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.%20%D0%9A%20%D1%82%D0%BE%D0%BC%D1%83%20%D0%BC%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%83%20%D0%B2%20%D0%90%D0%9E%20%C2%AB%D0%A3%D0%9C%D0%97%C2%BB%20%D1%83%D0%B6%D0%B5%20%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%B4%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D0%BB%D0%B5%D1%82%D0%B8%D0%B9%20%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%20%D1%83%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D1%8F%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D0%BD%D0%B5%D0%BE%D1%82%D1%8A%D0%B5%D0%BC 
+2024-09-08 00:52:47,062 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-v-chest-otkrytiya-stadiona-organizuyut-yarmarku-i-koncert-63876&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%B2%20%D1%87%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D1%83%D1%8E%D1%82%20%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D1%83%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82&image=https://static.yk-news.kz/202409060rbfYAMyY8I1000.jpg&description=7%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F%20%D0%B2%2011:00%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D1%81%D1%8F%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0%20%D0%BD%D0%B0%20%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B5,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%92%20%D1%87%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0,%20%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0.%20%D0%9D%D0%B0%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D1%82%20%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%82%D1%87,%20%D0%B0%20%D1%82%D0%B0%D0%BA%D0%B6%D0%B5%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%20%D1%81%20%D1%81%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B7%D0%B5%D1%80%D0%BE%D0%BC%20%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B3%D1%80%20%E2%80%94%202024%20%D0%94%D0%B5%D0%BC%D0%B5%D1%83%20%D0%96%D0%B0%D0%B4%D1%8B%D1%80%D0%B0%D0%B5%D0%B2%D1%8B%D0%BC. 
+2024-09-08 00:52:47,769 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-proshel-ocherednoy-reyd-po-vyyavleniyu-lyudey-bez-opredelennogo-mesta-zhitelstva-63878&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%BF%D1%80%D0%BE%D1%88%D0%B5%D0%BB%20%D0%BE%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%BD%D0%BE%D0%B9%20%D1%80%D0%B5%D0%B9%D0%B4%20%D0%BF%D0%BE%20%D0%B2%D1%8B%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D1%8E%20%D0%BB%D1%8E%D0%B4%D0%B5%D0%B9%20%D0%B1%D0%B5%D0%B7%20%D0%BE%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BC%D0%B5%D1%81%D1%82%D0%B0%20%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D1%81%D1%82%D0%B2%D0%B0&image=https://static.yk-news.kz/202409061725621195472640.jpeg&description=%D0%9B%D1%8E%D0%B4%D0%B5%D0%B9,%20%D0%BF%D0%BE%20%D1%80%D0%B0%D0%B7%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D1%87%D0%B8%D0%BD%D0%B0%D0%BC%20%D0%B2%D1%8B%D0%BD%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D1%85%20%D0%BD%D0%BE%D1%87%D0%B5%D0%B2%D0%B0%D1%82%D1%8C%20%D0%BF%D0%BE%D0%B4%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%BC%20%D0%BD%D0%B5%D0%B1%D0%BE%D0%BC,%20%D0%B8%D1%81%D0%BA%D0%B0%D0%BB%D0%B8%20%D0%B2%20%D1%82%D0%BE%D0%BC%20%D1%87%D0%B8%D1%81%D0%BB%D0%B5%20%D0%BD%D0%B0%20%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%D1%85%20%D0%BE%D0%B1%D1%89%D0%B5%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B0,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%A0%D0%B5%D0%B9%D0%B4%D1%8B,%20%D0%BD%D0%B0%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8%D0%BC,%20%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D1%8F%D1%82%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%9A%D0%93%D0%A3%20%C2%AB%D0%A6%D0%B5%D0%BD%D1%82%D1%80%20%D1%80%D0%B5%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D0%B8%20%D0%BB%D0%B8%D1%86,%20%D0%BE%D0%BA%D0%B0%D0%B7%D0%B0%D0%B2%D1%88%D0%B8%D1%85%D1%81%D1%8F%20%D0%B2%20%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%BE%D0%B9%20%D0%B6%D0%B8%D0%B7%D0%BD%D0%B5%D0%BD%D0%BD%D0%BE%D0%B9%20%D1%81%D0%B8%D1%82%D1%83%D0%B0%D1%86%D0%B8%D0%B8%C2%BB%20%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%D1%82%D0%B0%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B0.%20%D0%A6%D0%B5%D0%BD%D1%82%D1%80%20%D0%BD%D0%B0%D1%85%D0%BE%D0%B4%D0%B8%D1%82 
+2024-09-08 00:52:48,953 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/dagestancy-stali-lucsimi-na-turnire-po-boksu-v-serpuhove.html
+2024-09-08 00:52:49,054 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/iran-otmetil-silu-rossii.html
+2024-09-08 00:52:49,290 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/soci-obzavedetsa-novym-vodoprovodom-v-5-km.html
+2024-09-08 00:52:51,320 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/v-turcii-sravnili-itogovuu-deklaraciu-nato-s-manifestom-dzihadistov.html
+2024-09-08 00:52:51,634 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/edinyy-chasovoy-poyas-v-kazahstane-deputaty-trebuyut-vernut-prezhnee-vremya-63879&title=%D0%95%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D0%BE%D1%8F%D1%81%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5:%20%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%8B%20%D1%82%D1%80%D0%B5%D0%B1%D1%83%D1%8E%D1%82%20%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B6%D0%BD%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F&image=https://static.yk-news.kz/202409065045900490.jpg&description=%D0%94%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%8B%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20Amanat%20%D0%BE%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B8%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%B5%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0%20%D0%BD%D0%B0%20%D0%B5%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D0%BE%D1%8F%D1%81.%20%D0%9E%D0%BD%D0%B8%20%D0%B2%D1%8B%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BE%20%D0%BD%D0%B5%D0%B3%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B8%D1%8F%D1%85%20%D0%B4%D0%BB%D1%8F%20%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%B7%D0%B2%D0%B0%D0%BB%D0%B8%20%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B6%D0%BD%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20Informburo.kz.&nbsp;%22%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%20Amanat.%20%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D1%8F%D1%82,%20%D0%B2 
+2024-09-08 00:52:53,965 WARNING: Got data loss in https://vestikavkaza.ru/ingushetia?page=8. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,966 WARNING: Got data loss in https://www.kp.kz/daily/digital/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,968 WARNING: Got data loss in https://belta.by/zaschita-personalnyh-dannyh-ru/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,969 WARNING: Got data loss in https://belta.by/politika-konfidentsialnostibelta/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,969 WARNING: Got data loss in https://www.kp.kz/online/news/5973682/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,970 WARNING: Got data loss in https://vestikavkaza.ru/northossetia?page=5. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,971 WARNING: Got data loss in https://www.kp.kz/online/news/5973606/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,973 WARNING: Got data loss in https://www.kp.kz/daily/27629/4980246/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,974 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/14236. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,975 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/289. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,977 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/2122. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,978 WARNING: Got data loss in https://www.kp.kz/daily/27629/4980242/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,982 WARNING: Got data loss in https://www.scmp.com/comment/opinion/article/3247713/gaza-crisis-shows-un-security-council-being-muzzled-vetoes. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,983 WARNING: Got data loss in https://edition.cnn.com/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,984 WARNING: Got data loss in https://www.scmp.com/opinion/world-opinion/article/3277370/us-arms-sales-israel-hurt-americas-credibility-aukus. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,985 WARNING: Got data loss in https://pricom.kz/gorod/page/2. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,987 WARNING: Got data loss in https://vestikavkaza.ru/northossetia?page=10. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,988 WARNING: Got data loss in https://www.kp.kz/action/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,990 WARNING: Got data loss in https://belta.by/partners/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,991 WARNING: Got data loss in https://www.kp.kz/daily/life/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,991 WARNING: Got data loss in https://www.scmp.com/?module=masthead&pgtype=author. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,992 WARNING: Got data loss in https://yk-news.kz/news/%D1%83%D1%81%D1%82%D1%8C-%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA-%D0%B2-%D1%82%D1%80%D1%83%D0%B4%D0%B0%D1%85-%D0%B8%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D1%84%D0%BE%D1%82%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%BE%D0%B2-%D0%B8-%D1%85%D1%83%D0%B4%D0%BE%D0%B6%D0%BD%D0%B8%D0%BA%D0%BE%D0%B2%E2%80%A6. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,994 WARNING: Got data loss in https://www.kp.kz/online/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,995 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/5113. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,995 WARNING: Got data loss in https://pricom.kz/kultura/byit-otvetstvennyimi.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:52:53,996 WARNING: Got data loss in https://www.kp.kz/daily/27629/4980250/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:05,456 INFO: Есть подключение к БД: spider_3
+2024-09-08 00:54:05,456 INFO: Allowed domains: ['vestikavkaza.ru', 'scmp.com', 'newsweek.com', 'edition.cnn.com', 'izdatelstvo-sk.kz']
+2024-09-08 00:54:05,456 INFO: Enabled addons:
+[]
+2024-09-08 00:54:05,456 INFO: Telnet Password: f48c73fccb780fa9
+2024-09-08 00:54:05,456 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 00:54:05,456 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 00:54:05,457 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 00:54:05,457 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 00:54:05,457 INFO: Enabled item pipelines:
+[]
+2024-09-08 00:54:05,457 INFO: Spider opened
+2024-09-08 00:54:05,457 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 00:54:05,458 INFO: Telnet console listening on 127.0.0.1:6025
+2024-09-08 00:54:05,757 WARNING: Remote certificate is not valid for hostname "www.nv.kz"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.nv.kz'))])
+2024-09-08 00:54:06,797 INFO: Ignoring response <404 https://baltija.eu:443/user/rss>: HTTP status code is not handled or not allowed
+2024-09-08 00:54:07,372 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/pozdravlenie-akima-sko-gaueza-nurmuhambetova-s-dnem-konstitucii6039/
+2024-09-08 00:54:07,446 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-petropavlovske-na-stadione-dinamo-sostoyalos-otkritie4029/
+2024-09-08 00:54:07,813 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/na-zasedanii-akimata-sko-obsudili-voprosi-po-provedeniu8403/
+2024-09-08 00:54:08,008 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/severokazahstanskoe-agroformirovanie-too-budennoe-sk4290/
+2024-09-08 00:54:08,246 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-sko-s-uchastiem-sovetnika-premier-ministra5920/
+2024-09-08 00:54:08,528 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6940/
+2024-09-08 00:54:08,730 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-nazarbaev-intellektualnoi-shkole-petropavlovska-proshlo6094/
+2024-09-08 00:54:08,840 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/proekt-pod-nazvaniem-shag-k-vozmognostyam5039/
+2024-09-08 00:54:08,972 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akimat-sko-i-ao-kazpochta-zakluchili-memorandum4029/
+2024-09-08 00:54:09,169 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/poslanie-glavi-gosudarstva-kasim-gomarta-tokaeva6039/
+2024-09-08 00:54:09,296 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/predstavitelei-mehanizirovannih-brigad-uchastvovavshih-v-likvidacii5039/
+2024-09-08 00:54:09,357 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-gilci-neskolkih-mnogotagek-boatsa3021/
+2024-09-08 00:54:09,472 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6039/
+2024-09-08 00:54:09,482 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-s-dve-tisachi-vtorogo-goda4928/
+2024-09-08 00:54:09,516 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nesmotra-na-slognie-pogodnie-usloviya6938/
+2024-09-08 00:54:09,791 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/severo-kazahstanskiy-universitet-imeni-manasha-kozibaeva5290/
+2024-09-08 00:54:09,949 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-zapustili-unikalniy-socialniy-proekt5039/
+2024-09-08 00:54:09,973 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-dvadcat-pervogo-dekabrya3920/
+2024-09-08 00:54:10,091 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sentabre-tekushego-goda-v-kazahstane-startuet5930/
+2024-09-08 00:54:10,148 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-tridcat-raz-virosla-zabolevaemost-koklushem5930/
+2024-09-08 00:54:10,167 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zavershaetsa-stroitelstvo-studencheskogo-obshegitiya7049/
+2024-09-08 00:54:10,287 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-dva-studenta-iz-kitaya-pribili-v-kozybayev-university6039/
+2024-09-08 00:54:10,388 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/visshiy-mnogoprofilniy-kolledg-zeinep5930/
+2024-09-08 00:54:10,460 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-prinyalo-uchastie-v-akcii-doroga-v-shkolu6039/
+2024-09-08 00:54:10,471 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-vrachi-dva-s-polovinoi-chasa-borolis-za-gizn6938/
+2024-09-08 00:54:10,572 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-nachala-goda-v-kazahstane-zaregistrirovali6039/
+2024-09-08 00:54:10,714 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ministr-zdravoohraneniya-respubliki-kazahstan5928/
+2024-09-08 00:54:10,777 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/den-otkritih-dverei-s-uchastiem-akima-goroda-petropavlovska6039/
+2024-09-08 00:54:10,930 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-chetire-tovaroproizvoditela-sko-prinyali-uchastie4902/
+2024-09-08 00:54:10,974 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/po-dannim-mvd-s-noyabra-dve-tisyachi-dvadcat-vtorogo-goda3029/
+2024-09-08 00:54:10,991 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/rasporyageniem-akima-sko5930/
+2024-09-08 00:54:11,043 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/gitelnica-petropavlovska-asel-litvinenko6039/
+2024-09-08 00:54:11,160 ERROR: Gave up retrying <GET https://izdatelstvo-sk.kz/news/raion-imeni-gabita-musrepova5039/> (failed 3 times): 500 Internal Server Error
+2024-09-08 00:54:11,409 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-severo-kazahstanskoj-universalnoj-nauchnoj-biblioteke-im-sabita-mukanova-sostoyalas-vstrecha-v-for/
+2024-09-08 00:54:11,561 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ob-epidemiologicheskoi-situacii-v-sko5930/
+2024-09-08 00:54:11,573 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-otmetili-den-yazikov-naroda-rk6938/
+2024-09-08 00:54:11,808 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/strashnie-podrobnosti-gestokogo-ubiistva6940/
+2024-09-08 00:54:11,835 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-v-rezultate-pavodka5039/
+2024-09-08 00:54:12,369 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-ramkah-rabochey-poezdki-sko4920/
+2024-09-08 00:54:12,430 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kumar-aksakalov-i-arslan-husejn-podpisali-memorandum-o-stroitelstve-mnogoprofilnoj-bolnicy-v-petropa/
+2024-09-08 00:54:12,508 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/regisser-sailau-kamiev-vnov-stal-gostem4029/
+2024-09-08 00:54:12,543 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zrelishnim-fleshmobom-vstretili-kanun-dnya-semii6039/
+2024-09-08 00:54:12,576 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-oblastnom-russkom-dramaticheskom-teatre5903/
+2024-09-08 00:54:12,731 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/prazdnichniy-koncert-pod-nazvaniem-zoloto-progitih-let6928/
+2024-09-08 00:54:12,763 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-severo-kazahstanskoi-oblastnoi-filarmonii4025/
+2024-09-08 00:54:12,780 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-muzee-istorii-kozybayev-university4023/
+2024-09-08 00:54:12,843 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/pod-znakom-tridcatiletiya-dnya-duhovnogo-soglasiya4029/
+2024-09-08 00:54:12,857 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-givopisneishih-mestah-za-selom-pribregnim3928/
+2024-09-08 00:54:12,871 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-oblastnoi-universalnoi-nauchnoi-biblioteke3948/
+2024-09-08 00:54:12,920 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/povisit-informirovannost-o-sakralnih-mestah4928/
+2024-09-08 00:54:12,957 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-chest-dnya-respubliki-po-vsei-strane-prohodit6094/
+2024-09-08 00:54:13,000 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-v-chest-dnya-respubliki3928/
+2024-09-08 00:54:13,022 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/russkiy-dramaticheskiy-teatr-imeni-nikolaya-pogodina5926/
+2024-09-08 00:54:13,079 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-dome-drugbi-petropavlovska-proshlo-zasedanie5039/
+2024-09-08 00:54:13,173 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-severo-kazahstanskoi-oblasti-otkrili6937/
+2024-09-08 00:54:13,199 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/koki-gongui-yang-vistupil-s-simphonicheskim-orkestrom5029/
+2024-09-08 00:54:13,469 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-ramkah-goda-detei-festival-shuakti-elem5938/
+2024-09-08 00:54:14,070 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/sereznym-faktorom-riska-ateroskleroza-sosudov-zhiznenno-vazhnyh-organov-yavlyaetsya-gipertonicheskay/
+2024-09-08 00:54:15,688 WARNING: Got data loss in https://www.scmp.com/opinion/china-opinion/article/3277258/china-rising-or-slowing-down-answer-its-complicated?module=opinion&pgtype=subsection. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,691 WARNING: Got data loss in https://www.newsweek.com/press-center-image-gallery. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,693 WARNING: Got data loss in https://www.newsweek.com/wsid. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,694 WARNING: Got data loss in https://www.kp.kz/health/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,696 WARNING: Got data loss in https://www.kp.kz/economics/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,696 WARNING: Got data loss in https://vestikavkaza.ru/northossetia?page=5. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,697 WARNING: Got data loss in https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%C2%AB%D0%97%D0%9E%D0%9B%D0%9E%D0%A2%D0%9E%D0%95%C2%BB-%D0%9C%D0%95%D0%9D%D0%AC%D0%A8%D0%98%D0%9D%D0%A1%D0%A2%D0%92%D0%9E. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,700 WARNING: Got data loss in https://www.kp.kz/action/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,702 WARNING: Got data loss in https://edition.cnn.com. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,703 WARNING: Got data loss in https://pricom.kz/obshhestvo/den-yazykov-naroda-kazahstana-v-atyrau-otmetili-luchshih.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,704 WARNING: Got data loss in https://www.newsweek.com/corrections. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,706 WARNING: Got data loss in https://vestikavkaza.ru/chechnya. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,709 WARNING: Got data loss in https://edition.cnn.com/2024/09/07/business/apple-september-next-fall-event/index.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,709 WARNING: Got data loss in https://www.kp.kz/daily/televizor/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,711 WARNING: Got data loss in https://www.newsweek.com. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,712 WARNING: Got data loss in https://yk-news.kz/news/%D0%9F%D0%BE%D1%87%D0%B5%D0%BC%D1%83-%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D1%83-%D0%BF%D0%BE%D0%BD%D0%B0%D0%B4%D0%BE%D0%B1%D0%B8%D0%BB%D0%B0%D1%81%D1%8C-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F-%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F-%D0%AF%D0%9D%D0%92%D0%90%D0%A0%D0%A1%D0%9A%D0%90%D0%AF-%D0%93%D0%A0%D0%9E%D0%97%D0%90. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,713 WARNING: Got data loss in https://pricom.kz/aktualno/vstante-v-ochered-elektronnuyu.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,714 WARNING: Got data loss in https://edition.cnn.com/accessibility. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,716 WARNING: Got data loss in https://vestikavkaza.ru/northossetia?page=3. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,717 WARNING: Got data loss in https://yk-news.kz/weather/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,717 WARNING: Got data loss in https://vestikavkaza.ru/northossetia?page=2. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,719 WARNING: Got data loss in https://www.kp.kz/daily/press/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 00:54:15,720 WARNING: Got data loss in https://www.kp.kz/online/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:41,304 INFO: Есть подключение к БД: spider_3
+2024-09-08 01:00:41,304 INFO: Allowed domains: ['vestikavkaza.ru', 'scmp.com', 'newsweek.com', 'edition.cnn.com', 'izdatelstvo-sk.kz']
+2024-09-08 01:00:41,305 INFO: Enabled addons:
+[]
+2024-09-08 01:00:41,305 INFO: Telnet Password: 4078c3bf6c2c1fbf
+2024-09-08 01:00:41,305 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:00:41,305 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:00:41,306 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:00:41,306 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:00:41,306 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:00:41,306 INFO: Spider opened
+2024-09-08 01:00:41,306 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:00:41,307 INFO: Telnet console listening on 127.0.0.1:6025
+2024-09-08 01:00:41,605 WARNING: Remote certificate is not valid for hostname "www.nv.kz"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.nv.kz'))])
+2024-09-08 01:00:42,166 INFO: Ignoring response <404 https://baltija.eu:443/user/rss>: HTTP status code is not handled or not allowed
+2024-09-08 01:00:43,308 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/severokazahstanskoe-agroformirovanie-too-budennoe-sk4290/
+2024-09-08 01:00:43,419 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/predstavitelei-mehanizirovannih-brigad-uchastvovavshih-v-likvidacii5039/
+2024-09-08 01:00:43,572 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-sko-s-uchastiem-sovetnika-premier-ministra5920/
+2024-09-08 01:00:43,760 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-petropavlovske-na-stadione-dinamo-sostoyalos-otkritie4029/
+2024-09-08 01:00:43,832 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/na-zasedanii-akimata-sko-obsudili-voprosi-po-provedeniu8403/
+2024-09-08 01:00:43,841 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/pozdravlenie-akima-sko-gaueza-nurmuhambetova-s-dnem-konstitucii6039/
+2024-09-08 01:00:43,953 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-gilci-neskolkih-mnogotagek-boatsa3021/
+2024-09-08 01:00:44,445 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-nazarbaev-intellektualnoi-shkole-petropavlovska-proshlo6094/
+2024-09-08 01:00:45,003 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-chetire-tovaroproizvoditela-sko-prinyali-uchastie4902/
+2024-09-08 01:00:45,144 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/poslanie-glavi-gosudarstva-kasim-gomarta-tokaeva6039/
+2024-09-08 01:00:45,258 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-s-dve-tisachi-vtorogo-goda4928/
+2024-09-08 01:00:45,352 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akimat-sko-i-ao-kazpochta-zakluchili-memorandum4029/
+2024-09-08 01:00:45,432 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nesmotra-na-slognie-pogodnie-usloviya6938/
+2024-09-08 01:00:45,530 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sentabre-tekushego-goda-v-kazahstane-startuet5930/
+2024-09-08 01:00:45,735 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6039/
+2024-09-08 01:00:45,865 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-dvadcat-pervogo-dekabrya3920/
+2024-09-08 01:00:45,873 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/visshiy-mnogoprofilniy-kolledg-zeinep5930/
+2024-09-08 01:00:45,901 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-prinyalo-uchastie-v-akcii-doroga-v-shkolu6039/
+2024-09-08 01:00:45,923 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/analytics/pan-ili-propan-bajden-prigrozil-netanahu.html
+2024-09-08 01:00:45,986 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-tridcat-raz-virosla-zabolevaemost-koklushem5930/
+2024-09-08 01:00:46,021 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6940/
+2024-09-08 01:00:46,024 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/ukrotiteli-atoma-kak-v-vko-proizvodyat-yadernoe-toplivo-63882&title=%D0%A3%D0%BA%D1%80%D0%BE%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B8%20%D0%B0%D1%82%D0%BE%D0%BC%D0%B0:%20%D0%BA%D0%B0%D0%BA%20%D0%B2%20%D0%92%D0%9A%D0%9E%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%8F%D1%82%20%D1%8F%D0%B4%D0%B5%D1%80%D0%BD%D0%BE%D0%B5%20%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE&image=https://static.yk-news.kz/202409061828sborka.jpg&description=%D0%92%202021%20%D0%B3%D0%BE%D0%B4%D1%83%20%D0%B2%20%D0%92%D0%BE%D1%81%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D0%BC%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D0%BB%D1%81%D1%8F%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%20%D0%A2%D0%9E%D0%9E%20%C2%AB%D0%A3%D0%BB%D1%8C%D0%B1%D0%B0-%D0%A2%D0%92%D0%A1%C2%BB.%20%D0%9D%D0%B0%20%D0%B1%D0%B0%D0%B7%D0%B5%20%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4%D0%B0%20%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D0%B8%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D1%8C%20%D1%82%D0%B5%D0%BF%D0%BB%D0%BE%D0%B2%D1%8B%D0%B4%D0%B5%D0%BB%D1%8F%D1%8E%D1%89%D0%B8%D0%B5%20%D1%81%D0%B1%D0%BE%D1%80%D0%BA%D0%B8,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D1%8F%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D1%82%D0%BE%D0%BF%D0%BB%D0%B8%D0%B2%D0%BE%D0%BC%20%D0%B4%D0%BB%D1%8F%20%D0%B0%D1%82%D0%BE%D0%BC%D0%BD%D1%8B%D1%85%20%D1%8D%D0%BB%D0%B5%D0%BA%D1%82%D1%80%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B9.%20%D0%9A%20%D1%82%D0%BE%D0%BC%D1%83%20%D0%BC%D0%BE%D0%BC%D0%B5%D0%BD%D1%82%D1%83%20%D0%B2%20%D0%90%D0%9E%20%C2%AB%D0%A3%D0%9C%D0%97%C2%BB%20%D1%83%D0%B6%D0%B5%20%D0%BD%D0%B5%D1%81%D0%BA%D0%BE%D0%BB%D1%8C%D0%BA%D0%BE%20%D0%B4%D0%B5%D1%81%D1%8F%D1%82%D0%B8%D0%BB%D0%B5%D1%82%D0%B8%D0%B9%20%D1%83%D1%81%D0%BF%D0%B5%D1%88%D0%BD%D0%BE%20%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D0%BB%D0%B8%20%D1%83%D1%80%D0%B0%D0%BD%D0%BE%D0%B2%D1%8B%D0%B5%20%D1%82%D0%B0%D0%B1%D0%BB%D0%B5%D1%82%D0%BA%D0%B8,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D1%8B%D0%B5%20%D1%8F%D0%B2%D0%BB%D1%8F%D1%8E%D1%82%D1%81%D1%8F%20%D0%BD%D0%B5%D0%BE%D1%82%D1%8A%D0%B5%D0%BC 
+2024-09-08 01:00:46,035 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/den-otkritih-dverei-s-uchastiem-akima-goroda-petropavlovska6039/
+2024-09-08 01:00:46,081 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-nachala-goda-v-kazahstane-zaregistrirovali6039/
+2024-09-08 01:00:46,236 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-zapustili-unikalniy-socialniy-proekt5039/
+2024-09-08 01:00:46,494 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ob-epidemiologicheskoi-situacii-v-sko5930/
+2024-09-08 01:00:46,511 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/po-dannim-mvd-s-noyabra-dve-tisyachi-dvadcat-vtorogo-goda3029/
+2024-09-08 01:00:46,786 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/severo-kazahstanskiy-universitet-imeni-manasha-kozibaeva5290/
+2024-09-08 01:00:46,988 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-akima-beskolskogo-selskogo-okruga4029/
+2024-09-08 01:00:47,012 WARNING: Got data loss in https://www.newsweek.com/cookie-policy. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,013 WARNING: Got data loss in https://pricom.kz/brifing/agentstvo-po-zashhite-i-razvitiyu-konkurenczii-vzyskano-bolee-1-mlrd-shtrafa.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,014 WARNING: Got data loss in https://yk-news.kz/category/ekolikbez. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,016 WARNING: Got data loss in https://www.kp.kz/politics/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,019 WARNING: Got data loss in https://pricom.kz/obshhestvo/za-proshedshee-leto-tysyacha-molodyh-lyudej-uluchshili-ekologiyu-regiona.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,020 WARNING: Got data loss in https://otyrar.kz. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,021 WARNING: Got data loss in https://pricom.kz/zdorovie. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,022 WARNING: Got data loss in https://www.kp.kz/stars/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,023 WARNING: Got data loss in https://www.kp.kz/tourism/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,023 WARNING: Got data loss in https://pricom.kz/eto-interesno/festival-vinograda-v-kulsary.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,025 WARNING: Got data loss in https://www.kp.kz/daily/allcolumn/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,025 WARNING: Got data loss in https://www.newsweek.com/terms-sale. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,029 WARNING: Got data loss in https://yk-news.kz/currency. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,029 WARNING: Got data loss in https://yk-news.kz/category/%D1%83%D1%81%D1%82%D1%8C-%D0%BA%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA---300-%D0%BB%D0%B5%D1%82. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,030 WARNING: Got data loss in https://www.scmp.com/business/banking-finance?module=spotlight&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,032 WARNING: Got data loss in https://www.scmp.com/lifestyle/entertainment/article/3277588/reagan-director-shocked-similarities-between-events-biopic-and-2024-election?module=top_story&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,034 WARNING: Got data loss in https://www.kp.kz/incidents/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,035 WARNING: Got data loss in https://www.scmp.com/?module=masthead&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,036 WARNING: Got data loss in https://yk-news.kz/category/%D1%8F---%D0%BE%D1%87%D0%B5%D0%B2%D0%B8%D0%B4%D0%B5%D1%86. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,037 WARNING: Got data loss in https://yk-news.kz/category/republic. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,039 WARNING: Got data loss in https://yk-news.kz/news/cifrovoy-tenge-chto-kogda-zachem-i-pochemu-63861. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,040 WARNING: Got data loss in https://www.kp.kz/video/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,042 WARNING: Got data loss in https://edition.cnn.com/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,043 WARNING: Got data loss in https://yk-news.kz/feedback. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,044 WARNING: Got data loss in https://vestikavkaza.ru/kabardinobalkaria. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,046 WARNING: Got data loss in https://www.kp.kz/daily/science/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,046 WARNING: Got data loss in https://www.kp.kz/economics/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,048 WARNING: Got data loss in https://www.scmp.com/tech/big-tech/article/3277607/chinese-budget-smartphone-brand-transsion-says-finance-head-detained-investigation?module=top_story&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,049 WARNING: Got data loss in https://www.scmp.com/business/companies/article/2183355/sun-hung-kai-pays-us143-billion-kai-tak-residential-plot-subdued?module=spotlight&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,049 WARNING: Got data loss in https://vestikavkaza.ru/dagestan. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,050 WARNING: Got data loss in https://pricom.kz/novosti/soyuzniki-obsudili-politicheskij-dokument.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,051 WARNING: Got data loss in https://www.scmp.com/business/companies/article/2183570/victor-li-next-superman-and-can-he-outdo-his-father-li-ka-shing?module=spotlight&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,051 WARNING: Got data loss in https://www.scmp.com/business/companies/article/2182740/china-pharma-must-swallow-jagged-little-pill-called-rd-government?module=spotlight&pgtype=section. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,052 WARNING: Got data loss in https://www.newsweek.com/careers. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,053 WARNING: Got data loss in https://www.newsweek.com/corrections. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:00:47,054 WARNING: Got data loss in https://pricom.kz/vibory. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:27,427 INFO: Есть подключение к БД: spider_3
+2024-09-08 01:01:27,427 INFO: Allowed domains: ['vestikavkaza.ru', 'scmp.com', 'newsweek.com', 'edition.cnn.com', 'izdatelstvo-sk.kz']
+2024-09-08 01:01:27,427 INFO: Enabled addons:
+[]
+2024-09-08 01:01:27,427 INFO: Telnet Password: 55ee10507581ca3b
+2024-09-08 01:01:27,428 INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2024-09-08 01:01:27,428 INFO: Overridden settings:
+{'BOT_NAME': 'myproject',
+ 'CONCURRENT_REQUESTS': 50,
+ 'CONCURRENT_REQUESTS_PER_DOMAIN': 10,
+ 'DEPTH_LIMIT': 2,
+ 'DOWNLOAD_TIMEOUT': 10,
+ 'FEED_EXPORT_ENCODING': 'utf-8',
+ 'LOG_FORMAT': '%(levelname)s: %(message)s',
+ 'NEWSPIDER_MODULE': 'myproject.spiders',
+ 'REQUEST_FINGERPRINTER_IMPLEMENTATION': '2.7',
+ 'SPIDER_MODULES': ['myproject.spiders'],
+ 'TWISTED_REACTOR': 'twisted.internet.asyncioreactor.AsyncioSelectorReactor',
+ 'USER_AGENT': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+               '(KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
+2024-09-08 01:01:27,428 INFO: Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2024-09-08 01:01:27,429 INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2024-09-08 01:01:27,429 INFO: Enabled item pipelines:
+[]
+2024-09-08 01:01:27,429 INFO: Spider opened
+2024-09-08 01:01:27,429 INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2024-09-08 01:01:27,430 INFO: Telnet console listening on 127.0.0.1:6025
+2024-09-08 01:01:27,746 WARNING: Remote certificate is not valid for hostname "www.nv.kz"; VerificationError(errors=[DNSMismatch(mismatched_id=DNS_ID(hostname=b'www.nv.kz'))])
+2024-09-08 01:01:28,831 INFO: Ignoring response <404 https://baltija.eu:443/user/rss>: HTTP status code is not handled or not allowed
+2024-09-08 01:01:29,410 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/predstavitelei-mehanizirovannih-brigad-uchastvovavshih-v-likvidacii5039/
+2024-09-08 01:01:29,582 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-sko-s-uchastiem-sovetnika-premier-ministra5920/
+2024-09-08 01:01:30,078 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/pozdravlenie-akima-sko-gaueza-nurmuhambetova-s-dnem-konstitucii6039/
+2024-09-08 01:01:30,214 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/v-petropavlovske-na-stadione-dinamo-sostoyalos-otkritie4029/
+2024-09-08 01:01:30,259 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/na-zasedanii-akimata-sko-obsudili-voprosi-po-provedeniu8403/
+2024-09-08 01:01:31,227 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6039/
+2024-09-08 01:01:31,460 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-s-dve-tisachi-vtorogo-goda4928/
+2024-09-08 01:01:31,523 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-goroda-petropavlovska-serik-muhamediev-provel-otchetnuyu-vstrechu6940/
+2024-09-08 01:01:31,725 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/poslanie-glavi-gosudarstva-kasim-gomarta-tokaeva6039/
+2024-09-08 01:01:31,892 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-gilci-neskolkih-mnogotagek-boatsa3021/
+2024-09-08 01:01:31,918 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-zapustili-unikalniy-socialniy-proekt5039/
+2024-09-08 01:01:31,941 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ob-epidemiologicheskoi-situacii-v-sko5930/
+2024-09-08 01:01:31,951 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-dvadcat-pervogo-dekabrya3920/
+2024-09-08 01:01:31,965 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/den-otkritih-dverei-s-uchastiem-akima-goroda-petropavlovska6039/
+2024-09-08 01:01:32,044 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-chetire-tovaroproizvoditela-sko-prinyali-uchastie4902/
+2024-09-08 01:01:32,062 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/new/severokazahstanskoe-agroformirovanie-too-budennoe-sk4290/
+2024-09-08 01:01:32,135 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-nachala-goda-v-kazahstane-zaregistrirovali6039/
+2024-09-08 01:01:32,236 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sentabre-tekushego-goda-v-kazahstane-startuet5930/
+2024-09-08 01:01:32,298 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nesmotra-na-slognie-pogodnie-usloviya6938/
+2024-09-08 01:01:32,327 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-tridcat-raz-virosla-zabolevaemost-koklushem5930/
+2024-09-08 01:01:32,362 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ministr-zdravoohraneniya-respubliki-kazahstan5928/
+2024-09-08 01:01:32,401 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-nazarbaev-intellektualnoi-shkole-petropavlovska-proshlo6094/
+2024-09-08 01:01:32,429 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-dva-studenta-iz-kitaya-pribili-v-kozybayev-university6039/
+2024-09-08 01:01:32,459 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akimat-sko-i-ao-kazpochta-zakluchili-memorandum4029/
+2024-09-08 01:01:32,484 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/severo-kazahstanskiy-universitet-imeni-manasha-kozibaeva5290/
+2024-09-08 01:01:32,654 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/visshiy-mnogoprofilniy-kolledg-zeinep5930/
+2024-09-08 01:01:32,731 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-prinyalo-uchastie-v-akcii-doroga-v-shkolu6039/
+2024-09-08 01:01:32,905 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-vrachi-dva-s-polovinoi-chasa-borolis-za-gizn6938/
+2024-09-08 01:01:33,096 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zavershaetsa-stroitelstvo-studencheskogo-obshegitiya7049/
+2024-09-08 01:01:33,316 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/po-dannim-mvd-s-noyabra-dve-tisyachi-dvadcat-vtorogo-goda3029/
+2024-09-08 01:01:33,350 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/proekt-pod-nazvaniem-shag-k-vozmognostyam5039/
+2024-09-08 01:01:33,434 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-pernataya-postoyalica-zooparka-nedolyublivaet-muzhchina-63883&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%BF%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%B0%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BB%D0%B8%D1%86%D0%B0%20%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%D0%B0%20%C2%AB%D0%BD%D0%B5%D0%B4%D0%BE%D0%BB%D1%8E%D0%B1%D0%BB%D0%B8%D0%B2%D0%B0%D0%B5%D1%82%C2%BB%20%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D0%B0&image=https://static.yk-news.kz/202409061602ra9XMMDGC9k.jpg&description=%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8E%20%D1%81%D0%B0%D0%BC%D0%BA%D0%B8%20%D0%B1%D0%B5%D1%80%D0%BA%D1%83%D1%82%D0%B0%20%D1%80%D0%B0%D1%81%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8%20%D1%81%D0%BE%D1%82%D1%80%D1%83%D0%B4%D0%BD%D0%B8%D0%BA%D0%B8%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%BD%D0%BE-%D0%BB%D0%B0%D0%BD%D0%B4%D1%88%D0%B0%D1%84%D1%82%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%B8%20%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%BD%D0%BE-%D1%8D%D1%82%D0%BD%D0%BE%D0%B3%D1%80%D0%B0%D1%84%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%83%D0%B7%D0%B5%D1%8F-%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%A5%D0%B8%D1%89%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%82%D0%B8%D1%86%D0%B0%20%D0%91%D0%B5%D1%80%D1%82%D0%B0,%20%D0%BA%D0%BE%D1%82%D0%BE%D1%80%D0%B0%D1%8F%20%D1%8F%D0%B2%D0%BB%D1%8F%D0%B5%D1%82%D1%81%D1%8F%20%D0%BF%D0%BE%D1%81%D1%82%D0%BE%D1%8F%D0%BB%D0%B8%D1%86%D0%B5%D0%B9%20%D0%B7%D0%BE%D0%BE%D0%BF%D0%B0%D1%80%D0%BA%D0%B0,%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%BD%D0%BE%20%D0%B2%D0%B5%D0%B4%D0%B5%D1%82%20%D1%81%D0%B5%D0%B1%D1%8F,%20%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D0%BA%20%D0%B2%D0%BE%D0%BB%D1%8C%D0%B5%D1%80%D1%83%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8F%D1%82%20%D0%BC%D1%83%D0%B6%D1%87%D0%B8%D0%BD%D1%8B%20%D0%B2%D1%8B%D1%81%D0%BE%D0%BA%D0%BE%D0%B3%D0%BE%20%D1%80%D0%BE%D1%81%D1%82%D0%B0.%20%D0%9F%D1%80%D0%B8%20%D0%B2%D0%B8%D0%B4%D0%B5%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D1%82%D0%B5 
+2024-09-08 01:01:33,446 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-starsheklassnika-izoliruyut6039/
+2024-09-08 01:01:33,586 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-chinovniku-gorodskogo-akimata3029/
+2024-09-08 01:01:33,667 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/perenesenniy-match-chetirnadcatogo-tura-kazahstanskoi-premier-ligi6039/
+2024-09-08 01:01:33,679 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-akima-beskolskogo-selskogo-okruga4029/
+2024-09-08 01:01:33,757 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-shkolniki-razrabotali-model-agrotehnicheskoj-robotizirovannoj-platformy/
+2024-09-08 01:01:33,789 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-severo-kazahstanskoj-universalnoj-nauchnoj-biblioteke-im-sabita-mukanova-sostoyalas-vstrecha-v-for/
+2024-09-08 01:01:33,796 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-shahmati5839/
+2024-09-08 01:01:33,918 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zrelishnim-fleshmobom-vstretili-kanun-dnya-semii6039/
+2024-09-08 01:01:33,938 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-proshel-regionalnyj-chempionat-professionalnogo-masterstva-worldskills-kazakhstan/
+2024-09-08 01:01:33,957 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/gitelnica-petropavlovska-asel-litvinenko6039/
+2024-09-08 01:01:33,959 ERROR: Gave up retrying <GET https://izdatelstvo-sk.kz/news/raion-imeni-gabita-musrepova5039/> (failed 3 times): 500 Internal Server Error
+2024-09-08 01:01:33,971 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-otmetili-den-yazikov-naroda-rk6938/
+2024-09-08 01:01:33,984 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/severo-kazahstanskaya-oblastnaya-filarmoniya6829/
+2024-09-08 01:01:33,995 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/rukovoditelem-severo-kazahstanskogo-departamenta4829/
+2024-09-08 01:01:34,012 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-muzee-izobrazitelnih-iskusstv4039/
+2024-09-08 01:01:34,049 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/prikazom-ministra-po-chrezvichainim-situaciyam4829/
+2024-09-08 01:01:34,097 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-proshel-gragdanskiy-forum6930/
+2024-09-08 01:01:34,193 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kumar-aksakalov-i-arslan-husejn-podpisali-memorandum-o-stroitelstve-mnogoprofilnoj-bolnicy-v-petropa/
+2024-09-08 01:01:34,227 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/byla-provedena-blagotvoritelnaya-akciya-po-bezvozmezdnoj-sdache-krovi-v-chest-vsemirnogo-dnya-donora/
+2024-09-08 01:01:34,253 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/na-plenarnoy-chasti-xi-gragdanskogo-foruma5930/
+2024-09-08 01:01:34,336 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/president-prinyal-uchastie-v-zasedanii-soveta-glav-gosudarstv6093/
+2024-09-08 01:01:34,362 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/distancionnoe-okazanie-medicinskih-uslug-hotyat-utverdit-v-kazahstane/
+2024-09-08 01:01:34,380 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/den-otkritih-dverey-i-vstrechu-s-naseleniem4928/
+2024-09-08 01:01:34,391 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/transplantologiya-perezhivaet-smutnye-vremena/
+2024-09-08 01:01:34,436 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/elzhan-birtanov-nazval-prichiny-vvedeniya-pravila-otpuska-lekarstv-po-receptu-vracha/
+2024-09-08 01:01:34,452 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/soglasno-mezhdunarodnoj-klassifikacii-boleznej-ozhirenie-kak-zabolevanie-vydeleno-v-otdelnuyu-nozolo/
+2024-09-08 01:01:34,551 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/rasporyageniem-akima-sko5930/
+2024-09-08 01:01:34,593 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/sereznym-faktorom-riska-ateroskleroza-sosudov-zhiznenno-vazhnyh-organov-yavlyaetsya-gipertonicheskay/
+2024-09-08 01:01:34,636 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/besplatnye-lekarstvennye-sredstva/
+2024-09-08 01:01:34,798 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-presechena-ocherednaya-popitka4932/
+2024-09-08 01:01:34,908 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-mugchina-i-ghenshina-pogibli-pri-pogare4829/
+2024-09-08 01:01:34,947 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/prokuratura-podtverdila-narusheniya7938/
+2024-09-08 01:01:35,031 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/skandalnoe-delo-o-virubke6894/
+2024-09-08 01:01:35,063 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-rassleduyut-hishenie-budgetnih-sredstv6029/
+2024-09-08 01:01:35,139 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/gromkoe-delo-o-vzyatkah-i-dorogah4829/
+2024-09-08 01:01:35,166 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kagdoe-tretie-internet-moshennichestvo-v-sko4082/
+2024-09-08 01:01:35,256 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kagdiy-chetvertiy-gitel-sko-otkazalsya-ot-kreditov-iz-za-moshennikov7930/
+2024-09-08 01:01:35,268 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/chelovecheskie-ostanki-nashli5839/
+2024-09-08 01:01:35,288 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-petropavlovska-dal-dva-dnya-na-reshenie-problem6092/
+2024-09-08 01:01:35,356 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-voditel-osughden5839/
+2024-09-08 01:01:35,363 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/avtomobil-toyota-prevrashenniy-v-grudu-metalloloma6039/
+2024-09-08 01:01:35,370 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/o-predelnyh-cenah/
+2024-09-08 01:01:35,387 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-selchane-i-dachniki-napugani6839/
+2024-09-08 01:01:35,439 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/selhozformirovaniya-oblasti-nachinayut-uborku-urogaya3920/
+2024-09-08 01:01:35,472 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-postroyat-sovremenniy-teplichniy-kompleks3029/
+2024-09-08 01:01:35,480 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-v-krupnom-svinokomplekse5920/
+2024-09-08 01:01:35,507 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/zaveduyushiy-poliklinikoy-raiona-imeni-gabita-musrepova4920/
+2024-09-08 01:01:35,514 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/na-baze-otdiha-bliz-petropavlovska6930/
+2024-09-08 01:01:35,567 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/spros-na-otechestvennie-bio-preparati6930/
+2024-09-08 01:01:35,589 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-nachali-stroitelstvo-samoi-bolshoy-molochnoy-fermi6930/
+2024-09-08 01:01:35,595 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-na-ulice-buketova5029/
+2024-09-08 01:01:35,608 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-tushili-krupniy-prirodniy-pogar5029/
+2024-09-08 01:01:35,622 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kakie-lekarstva-mozhno-budet-kupit-bez-recepta/
+2024-09-08 01:01:35,631 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/edinyy-chasovoy-poyas-v-kazahstane-deputaty-trebuyut-vernut-prezhnee-vremya-63879&title=%D0%95%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D0%BE%D1%8F%D1%81%20%D0%B2%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B5:%20%D0%B4%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%8B%20%D1%82%D1%80%D0%B5%D0%B1%D1%83%D1%8E%D1%82%20%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B6%D0%BD%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F&image=https://static.yk-news.kz/202409065045900490.jpg&description=%D0%94%D0%B5%D0%BF%D1%83%D1%82%D0%B0%D1%82%D1%8B%20%D0%BF%D0%B0%D1%80%D1%82%D0%B8%D0%B8%20Amanat%20%D0%BE%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B8%20%D0%B7%D0%B0%D1%8F%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B5%D1%85%D0%BE%D0%B4%D0%B5%20%D0%9A%D0%B0%D0%B7%D0%B0%D1%85%D1%81%D1%82%D0%B0%D0%BD%D0%B0%20%D0%BD%D0%B0%20%D0%B5%D0%B4%D0%B8%D0%BD%D1%8B%D0%B9%20%D1%87%D0%B0%D1%81%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%BF%D0%BE%D1%8F%D1%81.%20%D0%9E%D0%BD%D0%B8%20%D0%B2%D1%8B%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB%D0%B8%D1%81%D1%8C%20%D0%BE%20%D0%BD%D0%B5%D0%B3%D0%B0%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D1%85%20%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D1%81%D1%82%D0%B2%D0%B8%D1%8F%D1%85%20%D0%B4%D0%BB%D1%8F%20%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9%20%D0%BF%D1%80%D0%B8%D0%BD%D1%8F%D1%82%D0%BE%D0%B3%D0%BE%20%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D0%B8%20%D0%BF%D1%80%D0%B8%D0%B7%D0%B2%D0%B0%D0%BB%D0%B8%20%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D1%82%D1%8C%20%D0%BF%D1%80%D0%B5%D0%B6%D0%BD%D0%B5%D0%B5%20%D0%B2%D1%80%D0%B5%D0%BC%D1%8F,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20Informburo.kz.&nbsp;%22%D0%9F%D1%80%D0%BE%D0%B2%D0%B5%D0%BB%D0%B8%20%D1%81%D0%BF%D0%B5%D1%86%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5%20%D1%81%D0%BE%D0%B1%D1%80%D0%B0%D0%BD%D0%B8%D0%B5%20%D1%84%D1%80%D0%B0%D0%BA%D1%86%D0%B8%D0%B8%20Amanat.%20%D0%9A%D0%BE%D0%BB%D0%BB%D0%B5%D0%B3%D0%B8%20%D0%BF%D0%BE%D0%B4%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D1%8F%D1%82,%20%D0%B2 
+2024-09-08 01:01:35,855 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-massovaya-uborochnaya-kampania5029/
+2024-09-08 01:01:35,877 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/vopros-razvitiya-selskih-territoriy7049/
+2024-09-08 01:01:36,262 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-avtopark-obshestvennogo-transporta5930/
+2024-09-08 01:01:36,279 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/fond-razvitiya-predprinimatelstva-damu5028/
+2024-09-08 01:01:36,293 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-novim-vidom-moshennichestva7930/
+2024-09-08 01:01:36,404 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/obespechenie-garantii-ispolneniya2930/
+2024-09-08 01:01:36,414 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-proidet-respublikanskiy-forum5839/
+2024-09-08 01:01:36,431 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/chetiresto-pyatdesyat-sem-nakazov-izbiratelei4892/
+2024-09-08 01:01:36,525 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-po-aktu-nadzora-prokurorov6039/
+2024-09-08 01:01:36,660 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/pod-rukovodstvom-glavi-regiona-aidarbeka-saparova4938/
+2024-09-08 01:01:36,717 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-ramkah-rabochey-poezdki-sko4920/
+2024-09-08 01:01:36,734 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-pristupili-k-rekonstrukcii6039/
+2024-09-08 01:01:36,759 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-zavershayut-stroitelstvo4958/
+2024-09-08 01:01:36,827 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-sostoyalos-otkritie4928/
+2024-09-08 01:01:36,851 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-planiruyut-postroit6029/
+2024-09-08 01:01:36,864 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-zavershilis5839/
+2024-09-08 01:01:36,931 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-konce-sentyabrya-tekushego-goda4839/
+2024-09-08 01:01:36,951 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-budut-sobirat-podyemnie-krani6039/
+2024-09-08 01:01:37,085 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/remont-dorognogo-polotna-na-uchastke3920/
+2024-09-08 01:01:37,094 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-rabochim-vizitom-v-sko-pobival4928/
+2024-09-08 01:01:37,106 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sele-novoishimskom-raiona-imeni-gabita-musrepova4029/
+2024-09-08 01:01:37,177 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/s-desyatogo-po-trinadcatoe-iyulya4029/
+2024-09-08 01:01:37,223 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-dlya-ambicioznih5892/
+2024-09-08 01:01:37,231 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/smm-specialist-odna-iz-sovremennih-vostrebovannih-professiy6029/
+2024-09-08 01:01:37,284 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-v-chest-otkrytiya-stadiona-organizuyut-yarmarku-i-koncert-63876&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%B2%20%D1%87%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D1%83%D1%8E%D1%82%20%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D1%83%20%D0%B8%20%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82&image=https://static.yk-news.kz/202409060rbfYAMyY8I1000.jpg&description=7%20%D1%81%D0%B5%D0%BD%D1%82%D1%8F%D0%B1%D1%80%D1%8F%20%D0%B2%2011:00%20%D1%81%D0%BE%D1%81%D1%82%D0%BE%D0%B8%D1%82%D1%81%D1%8F%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D0%B5%20%D0%BE%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B0%20%D0%BD%D0%B0%20%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B5,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%92%20%D1%87%D0%B5%D1%81%D1%82%D1%8C%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B8%D1%8F%20%D0%B1%D1%83%D0%B4%D0%B5%D1%82%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D1%80%D1%82%D0%BD%D0%B0%D1%8F%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B0,%20%D1%81%D0%B5%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D1%85%D0%BE%D0%B7%D1%8F%D0%B9%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F%20%D1%8F%D1%80%D0%BC%D0%B0%D1%80%D0%BA%D0%B0.%20%D0%9D%D0%B0%20%D1%81%D1%82%D0%B0%D0%B4%D0%B8%D0%BE%D0%BD%D0%B5%20%D0%BF%D1%80%D0%BE%D0%B9%D0%B4%D0%B5%D1%82%20%D1%84%D1%83%D1%82%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9%20%D0%BC%D0%B0%D1%82%D1%87,%20%D0%B0%20%D1%82%D0%B0%D0%BA%D0%B6%D0%B5%20%D0%B2%D1%81%D1%82%D1%80%D0%B5%D1%87%D0%B0%20%D1%81%20%D1%81%D0%B5%D1%80%D0%B5%D0%B1%D1%80%D1%8F%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B8%D0%B7%D0%B5%D1%80%D0%BE%D0%BC%20%D0%9E%D0%BB%D0%B8%D0%BC%D0%BF%D0%B8%D0%B9%D1%81%D0%BA%D0%B8%D1%85%20%D0%B8%D0%B3%D1%80%20%E2%80%94%202024%20%D0%94%D0%B5%D0%BC%D0%B5%D1%83%20%D0%96%D0%B0%D0%B4%D1%8B%D1%80%D0%B0%D0%B5%D0%B2%D1%8B%D0%BC. 
+2024-09-08 01:01:37,293 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvadcat-severokazahstanok-proshli-besplatnoe-obuchenie6029/
+2024-09-08 01:01:37,345 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-vozobnovili-zatyanuvsheysya-na-neskolko-let5930/
+2024-09-08 01:01:37,397 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/nezakonnimi-priznal-sud-deistviya7920/
+2024-09-08 01:01:37,415 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-proshli6839/
+2024-09-08 01:01:37,422 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/deputati-magilisa6839/
+2024-09-08 01:01:37,429 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-stali-izvestni-imena4039/
+2024-09-08 01:01:37,444 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/bolee-devyati-mln-tenge6832/
+2024-09-08 01:01:37,541 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/taishinskiy-raionniy-maslihat4892/
+2024-09-08 01:01:37,567 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/na-severe-kazahstana6930/
+2024-09-08 01:01:37,631 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-razvorachivayetsya-front6039/
+2024-09-08 01:01:37,651 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dinamika-razvitiya-legkoy-promishlennosti6930/
+2024-09-08 01:01:37,737 INFO: Ignoring link (url length > 2083): http://vk.com/share.php?url=https://yk-news.kz/news/v-ust-kamenogorske-moshennik-predstavlyalsya-zamestitelem-akima-i-vymanival-dengi-u-63880&title=%D0%92%20%D0%A3%D1%81%D1%82%D1%8C-%D0%9A%D0%B0%D0%BC%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA%D0%B5%20%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D0%BB%D1%81%D1%8F%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%20%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%20%D0%B8%20%D0%B2%D1%8B%D0%BC%D0%B0%D0%BD%D0%B8%D0%B2%D0%B0%D0%BB%20%D0%B4%D0%B5%D0%BD%D1%8C%D0%B3%D0%B8%20%D1%83%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9&image=https://static.yk-news.kz/202310171046_0.jpg&description=%D0%9F%D0%BE%20%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D0%BC%20%D0%90%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D1%80%D0%B0,%20%D0%B7%D0%BB%D0%BE%D1%83%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%B8%D0%BA%20%D0%B7%D0%B0%D0%B2%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%2050%20%D0%BC%D0%B8%D0%BB%D0%BB%D0%B8%D0%BE%D0%BD%D0%B0%D0%BC%D0%B8%20%D1%82%D0%B5%D0%BD%D0%B3%D0%B5,%20%D0%BF%D0%B5%D1%80%D0%B5%D0%B4%D0%B0%D0%B5%D1%82%20YK-news.kz.%D0%9D%D0%B5%D0%BA%D0%B8%D0%B9%20%D0%90.%20%D0%90%D0%B1%D0%B4%D1%80%D0%B0%D1%85%D0%BC%D0%B0%D0%BD%D0%BE%D0%B2%20%D1%83%D0%B6%D0%B5%20%D0%BE%D1%82%D0%B1%D1%8B%D0%B2%D0%B0%D0%B5%D1%82%20%D0%BD%D0%B0%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%20%D0%BC%D0%B5%D1%81%D1%82%D0%B0%D1%85%20%D0%BB%D0%B8%D1%88%D0%B5%D0%BD%D0%B8%D1%8F%20%D1%81%D0%B2%D0%BE%D0%B1%D0%BE%D0%B4%D1%8B%20%D0%B7%D0%B0%20%D0%BC%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D0%B8%D1%87%D0%B5%D1%81%D1%82%D0%B2%D0%BE.%C2%AB%D0%9F%D0%BE%D0%BB%D1%83%D1%87%D0%B8%D0%B2%20%D0%B4%D0%BE%D1%81%D1%82%D1%83%D0%BF%20%D0%BA%20%D1%81%D0%BE%D1%82%D0%BE%D0%B2%D0%BE%D0%BC%D1%83%20%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD%D1%83,%20%D0%BE%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9,%20%D0%BF%D1%80%D0%B5%D0%B4%D1%81%D1%82%D0%B0%D0%B2%D0%BB%D1%8F%D1%8F%D1%81%D1%8C%20%D0%B7%D0%B0%D0%BC%D0%B5%D1%81%D1%82%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%BC%20%D0%B0%D0%BA%D0%B8%D0%BC%D0%B0%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8,%20%D0%B7%D0%B2%D0%BE%D0%BD%D0%B8%D0%BB%20%D0%BA%D1%80%D1%83%D0%BF%D0%BD%D1%8B%D0%BC%20%D0%BF%D1%80%D0%B5%D0%B4%D0%BF%D1%80%D0%B8%D0%BD%D0%B8%D0%BC%D0%B0%D1%82%D0%B5%D0%BB 
+2024-09-08 01:01:37,895 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/vipuskniki-proekta-bastau-biznes4928/
+2024-09-08 01:01:37,967 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-podorogaet-proezd6039/
+2024-09-08 01:01:38,062 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-taishinskom-raione-aktivno-razvivayetsya6930/
+2024-09-08 01:01:38,072 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-zakupaet-ovoshi6039/
+2024-09-08 01:01:38,082 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-s-ee-rezko-kontinentalnim-klimatom6039/
+2024-09-08 01:01:38,123 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/press-tur-na-tec-dva4290/
+2024-09-08 01:01:38,155 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ocherednoy-press-tur-organizovali-specialisti4928/
+2024-09-08 01:01:38,239 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/aidarbek-saparov-posetil-shkoli5930/
+2024-09-08 01:01:38,257 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/regionalniy-forum-selskih-ghenshin7039/
+2024-09-08 01:01:38,266 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-kazahstane-prodolgayetsya-realizaciya-nacionalnogo-proekta5938/
+2024-09-08 01:01:38,297 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/chleni-obshestvennogo-soveta-sko5829/
+2024-09-08 01:01:38,315 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/shestnadcatogo-sentyabrya-vo-vseh-regionah-kazahstana5920/
+2024-09-08 01:01:38,370 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-virosli-tarifi6039/
+2024-09-08 01:01:38,496 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-nachali-stroit-noviy-most6039/
+2024-09-08 01:01:38,525 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-prokurori-vernuli-v-budget4920/
+2024-09-08 01:01:38,564 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kasim-gomart-tokaev-neodnokratno-zayavlyal4920/
+2024-09-08 01:01:38,622 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-sud-vernul-isk-gilcov5938/
+2024-09-08 01:01:38,640 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-too-kizilgar-su-rasskazali-o-tom4829/
+2024-09-08 01:01:38,667 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/shest-celih-devyat-desyatih-millionov-gektarov-zenovih6039/
+2024-09-08 01:01:38,723 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/polovina-posevov-sgnila-u-fermerov-sko5920/
+2024-09-08 01:01:38,752 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-v-ramkah-prazdnovaniya5930/
+2024-09-08 01:01:38,765 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/akim-oblasti-gauez-nurmuhambetov6930/
+2024-09-08 01:01:38,783 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/akim-sko-gauez-nurmuhambetov4829/
+2024-09-08 01:01:38,805 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/kazahstanci-uvelichili-rashodi-na-alkogol6039/
+2024-09-08 01:01:38,843 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/ocherednuyu-rabochuyu-poezdku6940/
+2024-09-08 01:01:38,882 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/gitelnicu-goroda-petropavlovska5938/
+2024-09-08 01:01:38,909 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/tridcat-dva-novih-passagirskih-vagona6930/
+2024-09-08 01:01:38,966 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-avariinie-doma5930/
+2024-09-08 01:01:38,985 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/akim-sko-gauez-nurmuhambetov6930/
+2024-09-08 01:01:39,229 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/vladelci-gilih-domov6893/
+2024-09-08 01:01:39,244 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-podorogal-proezd4920/
+2024-09-08 01:01:39,262 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/nakanune-dnya-respubliki-v-gorode-petropavlovske4920/
+2024-09-08 01:01:39,276 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-otkrila-torgovuyu-tochku3920/
+2024-09-08 01:01:39,288 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sootvetstvii-s-prikazom-ministra5930/
+2024-09-08 01:01:39,327 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/glavnim-instrumentom-industrialnoy-i-socialnoy-modernizacii7029/
+2024-09-08 01:01:39,359 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-prodolgaet-zakup4829/
+2024-09-08 01:01:39,445 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/fabrika-v-sko-planiruet-nabrat4920/
+2024-09-08 01:01:39,491 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/energobezopasnost-strani5839/
+2024-09-08 01:01:39,666 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/iznos-elektrooborudovaniya6930/
+2024-09-08 01:01:39,706 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/predprinimateli-sko-prodolgayut-polzovatsya-gosudarstvennoy-poddergkoy7049/
+2024-09-08 01:01:39,722 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/problema-s-deficitom-sgigennogo-gaza4920/
+2024-09-08 01:01:39,759 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/lichnie-akkaunti-v-socialnih-setyah6930/
+2024-09-08 01:01:39,910 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/srednemesyachnaya-nominalnaya-zarplata5839/
+2024-09-08 01:01:39,931 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/akim-oblasti-gauez-nurmuhambetov5930/
+2024-09-08 01:01:40,015 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/departament-estestvennih-monopoliy4920/
+2024-09-08 01:01:40,072 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-spk-soltustik-profinansirovalo-proekt7940/
+2024-09-08 01:01:40,207 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-namereni-rasshirit-specialnuyu-ekonomicheskuyu-zonu6930/
+2024-09-08 01:01:40,246 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/obyazatelnoe-avtostrahovanie6849/
+2024-09-08 01:01:40,270 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/nacionalniy-bank-kazahstana6930/
+2024-09-08 01:01:40,323 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-planiruyetsya-dovesti-doliu-dorog6930/
+2024-09-08 01:01:40,428 WARNING: Новость добавлена в базу: https://vestikavkaza.ru/news/storm-vynudil-zakryt-plazi-v-alte.html
+2024-09-08 01:01:40,447 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/dvenadcatogo-dekabrya-v-astane-sostoitsya7982/
+2024-09-08 01:01:40,457 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-razrabotana-dorognaya-karta6903/
+2024-09-08 01:01:40,575 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/glava-regiona-gauez-nurmuhambetov-proinspektiroval6930/
+2024-09-08 01:01:40,618 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-vosstanovyat-orositelniy-kanal6938/
+2024-09-08 01:01:40,748 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/perviy-vice-ministr-torgovli7984/
+2024-09-08 01:01:40,779 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-petropavlovske-budgetnie-sredstva2839/
+2024-09-08 01:01:40,879 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/blagodarya-zaimu-poluchennomu-po-programme-auli-amanati6839/
+2024-09-08 01:01:40,960 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/perviy-oblastnoy-forum-deputatov5930/
+2024-09-08 01:01:40,990 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/v-sko-italyanskie-investori6930/
+2024-09-08 01:01:41,145 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/eksperti-agenstva-rk5839/
+2024-09-08 01:01:41,158 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-sorok-pyat-giteley-kizilgarskogo-raiona6039/
+2024-09-08 01:01:41,196 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-kazahstane-sushestvuyut5938/
+2024-09-08 01:01:41,209 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/razvitiyu-sferi-beregnogo-otnosheniya930/
+2024-09-08 01:01:41,221 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/ayirtauskiy-raion-s-rabochim-vizitom6839/
+2024-09-08 01:01:41,244 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/kak-budut-povisheni-pensii-i-posobiya6938/
+2024-09-08 01:01:41,316 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/feirverki-saluti-eto-nesomnenno-ukrashenie-novogodnih-prazdnikov6839/
+2024-09-08 01:01:41,350 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/noviy-kotloagregat-postroyat6930/
+2024-09-08 01:01:41,361 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/poezd-talgo-po-marshrutu-petropavlovsk-almati6839/
+2024-09-08 01:01:41,375 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/akim-oblasti-gauez-nurmuhambetov-vstretilsya-s-biznes-soobshestvom7039/
+2024-09-08 01:01:41,393 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/reisi-iz-petropavlovska-v-turkestan4829/
+2024-09-08 01:01:41,628 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/yanvar-pokazivayet-shto-predprinimateli6039/
+2024-09-08 01:01:41,654 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/raion-imeni-gabita-musrepova-s-rabochim-vizitom6094/
+2024-09-08 01:01:41,685 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-centre-po-ohrane-i-ispolzovaniyu6849/
+2024-09-08 01:01:41,784 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/ob-izmenenii-stoimosti-biletov4920/
+2024-09-08 01:01:41,836 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sootvetstvii-s-trebovaniyami-zakonodatelstva5930/
+2024-09-08 01:01:41,959 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/rekomendaciya-evraziyskoy-ekonomicheskoy-komissii6039/
+2024-09-08 01:01:42,003 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-komitete-po-zashite-prav-potrebiteley7920/
+2024-09-08 01:01:42,022 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-v-ramkah-bolshogo-proekta5839/
+2024-09-08 01:01:42,181 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/dvuhgodichniy-proekt-chu5839/
+2024-09-08 01:01:42,188 INFO: Ссылка уже существует в базе TEMP: https://izdatelstvo-sk.kz/news/ao-kazagrofinans-zapuskayet-novuyu-programmu6039/
+2024-09-08 01:01:42,312 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/rabota-profsoyuzov-sko-provoditsya6930/
+2024-09-08 01:01:42,385 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/tridcat-novih-skverov-razobiut-v-petropavlovske5930/
+2024-09-08 01:01:42,440 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/akim-sko-gauez-nurmuhambetov-oznakomilsya-s-rabotoi6920/
+2024-09-08 01:01:42,582 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-v-etom-godu-na-remont6930/
+2024-09-08 01:01:42,750 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/reshenie-problemi-vivoza-krupnogabaritnogo-musora5930/
+2024-09-08 01:01:42,818 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-petropavlovske-k-letnemu-vodoprovodu4920/
+2024-09-08 01:01:42,901 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/women-in-business-dialogovaya-ploshadka6930/
+2024-09-08 01:01:42,947 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/president-kasim-gomart-tokaev-podpisal-ukaz5930/
+2024-09-08 01:01:42,973 WARNING: Новость добавлена в базу: https://izdatelstvo-sk.kz/news/v-sko-utvergdayut-izmeneniya6930/
+2024-09-08 01:01:42,980 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/2540. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,981 WARNING: Got data loss in https://www.kp.kz/daily/press/detail/15630/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,983 WARNING: Got data loss in https://pricom.kz/lichnost/ajtkali-nurgaliev-pervootkryvatel-nezavisimogo-obltv.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,984 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/687. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,985 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/2955. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,988 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/2122. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,989 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/289. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,990 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/15345. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,990 WARNING: Got data loss in https://pricom.kz/obshhestvo/pereotsenka-vremenem.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,992 WARNING: Got data loss in https://www.kp.kz/daily/press/detail/15636/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,994 WARNING: Got data loss in https://kabar.kg/news/v-bishkeke-sostoialas-tceremoniia-peredachi-50-shkol-nykh-avtobusov-dlia-otdalennykh-raionov-strany/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,995 WARNING: Got data loss in https://edition.cnn.com/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,996 WARNING: Got data loss in https://www.kp.kz/daily/press/detail/15632/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:42,999 WARNING: Got data loss in https://pricom.kz/novosti/ne-teryayte-nadezhdu-i-dokumentyi.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,000 WARNING: Got data loss in https://www.kp.kz/daily/press/detail/15625/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,002 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/9870. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,002 WARNING: Got data loss in https://www.kp.kz/daily/press/detail/15627/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,003 WARNING: Got data loss in https://www.kp.kz/daily/author/3930/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,004 WARNING: Got data loss in https://pricom.kz/novosti/v-regione-za-11-mesyaczev-proizoshlo-215-dtp.html. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,005 WARNING: Got data loss in https://yk-news.kz/taxonomy/term/2622. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
+2024-09-08 01:01:43,007 WARNING: Got data loss in https://www.newsweek.com/. If you want to process broken responses set the setting DOWNLOAD_FAIL_ON_DATALOSS = False -- This message won't be shown in further requests
